@@ -360,7 +360,7 @@
         const ruEnriched = enriched.filter(e => e.russian);
         const worldEnriched = enriched;
 
-        function topN(arr, key, n = 15) {
+        function topN(arr, key, n = 35) {
             return arr.map(e => ({ name: e.name, value: e[key] })).sort((a, b) => b.value - a.value).slice(0, n);
         }
         const C = ['#9147ff', '#a970ff', '#bf94ff', '#d4b8ff', '#772ce8', '#5c16c5', '#c2a5ff', '#9b7ee8', '#8367c7', '#b89ef0'];
