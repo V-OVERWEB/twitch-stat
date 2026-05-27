@@ -1092,7 +1092,7 @@
       "display_name": "Jinnytty",
       "url": "https://www.twitch.tv/jinnytty",
       "first_seen_msk": "2026-05-25 12:48:41 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 12:48:41 МСК",
@@ -1870,19 +1870,87 @@
             "messages_change": 2679,
             "chatters_change": 21
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 5537,
+          "follower_count": 1124950,
+          "stream_title": "DAY 17 : ROMANIA 🐻 TO BRASOV WOBBLETHON S3 [POLAND TO ROMANIA BUCHAREST 1500KM CHALLENGE] | !vods for past streams | @Jinnytty !socials",
+          "started_at_msk": "2026-05-27 10:21:21 МСК",
+          "duration_hours": 4.1,
+          "total_messages": 232768079,
+          "unique_chatters": 104133,
+          "ratio": 0.49,
+          "growth": {
+            "viewers_change": 84,
+            "followers_change": 11,
+            "messages_change": 3776,
+            "chatters_change": 21
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 5721,
+          "follower_count": 1124973,
+          "stream_title": "DAY 17 : ROMANIA 🐻 TO BRASOV WOBBLETHON S3 [POLAND TO ROMANIA BUCHAREST 1500KM CHALLENGE] | !vods for past streams | @Jinnytty !socials",
+          "started_at_msk": "2026-05-27 10:21:21 МСК",
+          "duration_hours": 4.6,
+          "total_messages": 232772238,
+          "unique_chatters": 104153,
+          "ratio": 0.51,
+          "growth": {
+            "viewers_change": 184,
+            "followers_change": 23,
+            "messages_change": 4159,
+            "chatters_change": 20
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 5960,
+          "follower_count": 1124981,
+          "stream_title": "DAY 17 : ROMANIA 🐻 TO BRASOV WOBBLETHON S3 [POLAND TO ROMANIA BUCHAREST 1500KM CHALLENGE] | !vods for past streams | @Jinnytty !socials",
+          "started_at_msk": "2026-05-27 10:21:21 МСК",
+          "duration_hours": 5.1,
+          "total_messages": 232775448,
+          "unique_chatters": 104167,
+          "ratio": 0.53,
+          "growth": {
+            "viewers_change": 239,
+            "followers_change": 8,
+            "messages_change": 3210,
+            "chatters_change": 14
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 6105,
+          "follower_count": 1125001,
+          "stream_title": "DAY 17 : ROMANIA 🐻 TO BRASOV WOBBLETHON S3 [POLAND TO ROMANIA BUCHAREST 1500KM CHALLENGE] | !vods for past streams | @Jinnytty !socials",
+          "started_at_msk": "2026-05-27 10:21:21 МСК",
+          "duration_hours": 5.6,
+          "total_messages": 232778604,
+          "unique_chatters": 104179,
+          "ratio": 0.54,
+          "growth": {
+            "viewers_change": 145,
+            "followers_change": 20,
+            "messages_change": 3156,
+            "chatters_change": 12
+          }
         }
       ],
       "peak_viewers": 7897,
-      "avg_viewers": 5822.4,
-      "total_snapshots": 46,
+      "avg_viewers": 5823.0,
+      "total_snapshots": 50,
       "avg_viewer_to_follower_ratio": 0.52,
-      "avg_total_messages": 232653869.0,
-      "avg_unique_chatters": 103456.0,
+      "avg_total_messages": 232663846.0,
+      "avg_unique_chatters": 103514.0,
       "total_growth": {
-        "viewers_change": 322,
-        "followers_change": 676,
-        "messages_change": 223373,
-        "chatters_change": 1421
+        "viewers_change": 974,
+        "followers_change": 738,
+        "messages_change": 237674,
+        "chatters_change": 1488
       }
     },
     "samueletienne": {
@@ -2671,7 +2739,7 @@
       "display_name": "AlveusSanctuary",
       "url": "https://www.twitch.tv/alveussanctuary",
       "first_seen_msk": "2026-05-25 12:48:41 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 12:48:41 МСК",
@@ -4299,19 +4367,87 @@
             "messages_change": 206,
             "chatters_change": 8
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 2114,
+          "follower_count": 411207,
+          "stream_title": "Alveus Subathon (Day 3 / 24+) | !alveus !institute !pixel !schedule !video !subathon",
+          "started_at_msk": "2026-05-27 08:02:33 МСК",
+          "duration_hours": 6.4,
+          "total_messages": 8330516,
+          "unique_chatters": 14224,
+          "ratio": 0.51,
+          "growth": {
+            "viewers_change": 76,
+            "followers_change": 16,
+            "messages_change": 331,
+            "chatters_change": 2
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 2318,
+          "follower_count": 411235,
+          "stream_title": "Alveus Subathon (Day 3 / 24+) | !alveus !institute !pixel !schedule !video !subathon",
+          "started_at_msk": "2026-05-27 08:02:33 МСК",
+          "duration_hours": 6.9,
+          "total_messages": 8330895,
+          "unique_chatters": 14229,
+          "ratio": 0.56,
+          "growth": {
+            "viewers_change": 204,
+            "followers_change": 28,
+            "messages_change": 379,
+            "chatters_change": 5
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 2754,
+          "follower_count": 411253,
+          "stream_title": "Alveus Subathon (Day 3 / 24+) | !alveus !institute !pixel !schedule !video !subathon",
+          "started_at_msk": "2026-05-27 08:02:33 МСК",
+          "duration_hours": 7.4,
+          "total_messages": 8331572,
+          "unique_chatters": 14242,
+          "ratio": 0.67,
+          "growth": {
+            "viewers_change": 436,
+            "followers_change": 18,
+            "messages_change": 677,
+            "chatters_change": 13
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 2892,
+          "follower_count": 414931,
+          "stream_title": "Alveus Subathon (Day 3 / 24+) | !alveus !institute !pixel !schedule !video !subathon",
+          "started_at_msk": "2026-05-27 08:02:33 МСК",
+          "duration_hours": 7.9,
+          "total_messages": 8332568,
+          "unique_chatters": 14256,
+          "ratio": 0.7,
+          "growth": {
+            "viewers_change": 138,
+            "followers_change": 3678,
+            "messages_change": 996,
+            "chatters_change": 14
+          }
         }
       ],
       "peak_viewers": 6184,
-      "avg_viewers": 3416.8,
-      "total_snapshots": 96,
+      "avg_viewers": 3380.9,
+      "total_snapshots": 100,
       "avg_viewer_to_follower_ratio": 0.83,
-      "avg_total_messages": 8271231.0,
-      "avg_unique_chatters": 13029.0,
+      "avg_total_messages": 8273965.0,
+      "avg_unique_chatters": 13084.0,
       "total_growth": {
-        "viewers_change": -681,
-        "followers_change": 3656,
-        "messages_change": 114681,
-        "chatters_change": 2641
+        "viewers_change": 173,
+        "followers_change": 7396,
+        "messages_change": 117064,
+        "chatters_change": 2675
       }
     },
     "rivenzi": {
@@ -5748,7 +5884,7 @@
       "display_name": "gracehan_",
       "url": "https://www.twitch.tv/gracehan_",
       "first_seen_msk": "2026-05-25 12:48:41 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 12:48:41 МСК",
@@ -6237,19 +6373,87 @@
             "messages_change": 477,
             "chatters_change": 10
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1228,
+          "follower_count": 20207,
+          "stream_title": "[ENG/KR] DAY 3 Taipei ||Temple,Night market || Taiwan 🇹🇼 ||",
+          "started_at_msk": "2026-05-27 09:33:16 МСК",
+          "duration_hours": 4.9,
+          "total_messages": 208263,
+          "unique_chatters": 2942,
+          "ratio": 6.08,
+          "growth": {
+            "viewers_change": -152,
+            "followers_change": 40,
+            "messages_change": 435,
+            "chatters_change": 8
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1163,
+          "follower_count": 20243,
+          "stream_title": "[ENG/KR] DAY 3 Taipei ||Temple,Night market || Taiwan 🇹🇼 ||",
+          "started_at_msk": "2026-05-27 09:33:16 МСК",
+          "duration_hours": 5.4,
+          "total_messages": 208663,
+          "unique_chatters": 2951,
+          "ratio": 5.75,
+          "growth": {
+            "viewers_change": -65,
+            "followers_change": 36,
+            "messages_change": 400,
+            "chatters_change": 9
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 1255,
+          "follower_count": 20266,
+          "stream_title": "[ENG/KR] DAY 3 Taipei ||Temple,Night market || Taiwan 🇹🇼 ||",
+          "started_at_msk": "2026-05-27 09:33:16 МСК",
+          "duration_hours": 5.9,
+          "total_messages": 209382,
+          "unique_chatters": 2959,
+          "ratio": 6.19,
+          "growth": {
+            "viewers_change": 92,
+            "followers_change": 23,
+            "messages_change": 719,
+            "chatters_change": 8
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 1311,
+          "follower_count": 20305,
+          "stream_title": "[ENG/KR] DAY 3 Taipei ||Temple,Night market || Taiwan 🇹🇼 ||",
+          "started_at_msk": "2026-05-27 09:33:16 МСК",
+          "duration_hours": 6.4,
+          "total_messages": 210144,
+          "unique_chatters": 2967,
+          "ratio": 6.46,
+          "growth": {
+            "viewers_change": 56,
+            "followers_change": 39,
+            "messages_change": 762,
+            "chatters_change": 8
+          }
         }
       ],
       "peak_viewers": 1380,
-      "avg_viewers": 849.1,
-      "total_snapshots": 29,
-      "avg_viewer_to_follower_ratio": 4.33,
-      "avg_total_messages": 192999.0,
-      "avg_unique_chatters": 2600.0,
+      "avg_viewers": 896.4,
+      "total_snapshots": 33,
+      "avg_viewer_to_follower_ratio": 4.55,
+      "avg_total_messages": 194952.0,
+      "avg_unique_chatters": 2643.0,
       "total_growth": {
-        "viewers_change": 782,
-        "followers_change": 1471,
-        "messages_change": 39097,
-        "chatters_change": 964
+        "viewers_change": 713,
+        "followers_change": 1609,
+        "messages_change": 41413,
+        "chatters_change": 997
       }
     },
     "luxgrl": {
@@ -6324,7 +6528,7 @@
       "display_name": "Vinment",
       "url": "https://www.twitch.tv/vinment",
       "first_seen_msk": "2026-05-25 12:48:41 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 12:48:41 МСК",
@@ -6507,17 +6711,85 @@
             "messages_change": 0,
             "chatters_change": 0
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1902,
+          "follower_count": 42692,
+          "stream_title": "🚨🚨🚨Америкацион 1.0 !tg !Америкацион !Заброшка !Режимы !карцер !правила",
+          "started_at_msk": "2026-05-27 10:08:40 МСК",
+          "duration_hours": 4.3,
+          "total_messages": 7756919,
+          "unique_chatters": 7866,
+          "ratio": 4.46,
+          "growth": {
+            "viewers_change": -69,
+            "followers_change": 2,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1880,
+          "follower_count": 42694,
+          "stream_title": "🚨🚨🚨Америкацион 1.0 !tg !Америкацион !Заброшка !Режимы !карцер !правила",
+          "started_at_msk": "2026-05-27 10:08:40 МСК",
+          "duration_hours": 4.8,
+          "total_messages": 7756919,
+          "unique_chatters": 7866,
+          "ratio": 4.4,
+          "growth": {
+            "viewers_change": -22,
+            "followers_change": 2,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 1913,
+          "follower_count": 42698,
+          "stream_title": "🚨🚨🚨Америкацион 1.0 !tg !Америкацион !Заброшка !Режимы !карцер !правила",
+          "started_at_msk": "2026-05-27 10:08:40 МСК",
+          "duration_hours": 5.3,
+          "total_messages": 7756919,
+          "unique_chatters": 7866,
+          "ratio": 4.48,
+          "growth": {
+            "viewers_change": 33,
+            "followers_change": 4,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 1644,
+          "follower_count": 42700,
+          "stream_title": "🚨🚨🚨Америкацион 1.0 !tg !Америкацион !Заброшка !Режимы !карцер !правила",
+          "started_at_msk": "2026-05-27 10:08:40 МСК",
+          "duration_hours": 5.8,
+          "total_messages": 7756919,
+          "unique_chatters": 7866,
+          "ratio": 3.85,
+          "growth": {
+            "viewers_change": -269,
+            "followers_change": 2,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
       "peak_viewers": 1986,
-      "avg_viewers": 1594.2,
-      "total_snapshots": 11,
-      "avg_viewer_to_follower_ratio": 3.74,
+      "avg_viewers": 1658.3,
+      "total_snapshots": 15,
+      "avg_viewer_to_follower_ratio": 3.89,
       "avg_total_messages": 7756919.0,
       "avg_unique_chatters": 7866.0,
       "total_growth": {
-        "viewers_change": 490,
-        "followers_change": 113,
+        "viewers_change": 163,
+        "followers_change": 123,
         "messages_change": 0,
         "chatters_change": 0
       }
@@ -6631,7 +6903,7 @@
       "display_name": "Hitch",
       "url": "https://www.twitch.tv/hitch",
       "first_seen_msk": "2026-05-25 12:48:41 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 12:48:41 МСК",
@@ -7120,19 +7392,87 @@
             "messages_change": 173,
             "chatters_change": 8
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1531,
+          "follower_count": 153953,
+          "stream_title": "Tandem Biking to TwitchCon with @sarahbridgewater Day 22 | !meet !trip !guest !donate !esim !prozis | France",
+          "started_at_msk": "2026-05-27 10:34:26 МСК",
+          "duration_hours": 3.8,
+          "total_messages": 10834132,
+          "unique_chatters": 19977,
+          "ratio": 0.99,
+          "growth": {
+            "viewers_change": -283,
+            "followers_change": 4,
+            "messages_change": 326,
+            "chatters_change": 12
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1648,
+          "follower_count": 153953,
+          "stream_title": "Tandem Biking to TwitchCon with @sarahbridgewater Day 22 | !meet !trip !guest !donate !esim !prozis | Belgium",
+          "started_at_msk": "2026-05-27 10:34:26 МСК",
+          "duration_hours": 4.4,
+          "total_messages": 10834803,
+          "unique_chatters": 19988,
+          "ratio": 1.07,
+          "growth": {
+            "viewers_change": 117,
+            "followers_change": 0,
+            "messages_change": 671,
+            "chatters_change": 11
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 1481,
+          "follower_count": 153961,
+          "stream_title": "Tandem Biking to TwitchCon with @sarahbridgewater Day 22 | !meet !trip !guest !donate !esim !prozis | Belgium",
+          "started_at_msk": "2026-05-27 10:34:26 МСК",
+          "duration_hours": 4.9,
+          "total_messages": 10835313,
+          "unique_chatters": 19999,
+          "ratio": 0.96,
+          "growth": {
+            "viewers_change": -167,
+            "followers_change": 8,
+            "messages_change": 510,
+            "chatters_change": 11
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 1450,
+          "follower_count": 153961,
+          "stream_title": "Tandem Biking to TwitchCon with @sarahbridgewater Day 22 | !meet !trip !guest !donate !esim !prozis | Belgium",
+          "started_at_msk": "2026-05-27 10:34:26 МСК",
+          "duration_hours": 5.4,
+          "total_messages": 10835740,
+          "unique_chatters": 20008,
+          "ratio": 0.94,
+          "growth": {
+            "viewers_change": -31,
+            "followers_change": 0,
+            "messages_change": 427,
+            "chatters_change": 9
+          }
         }
       ],
       "peak_viewers": 1814,
-      "avg_viewers": 1263.0,
-      "total_snapshots": 29,
-      "avg_viewer_to_follower_ratio": 0.82,
-      "avg_total_messages": 10825374.0,
-      "avg_unique_chatters": 19736.0,
+      "avg_viewers": 1295.1,
+      "total_snapshots": 33,
+      "avg_viewer_to_follower_ratio": 0.84,
+      "avg_total_messages": 10826541.0,
+      "avg_unique_chatters": 19767.0,
       "total_growth": {
-        "viewers_change": 870,
-        "followers_change": 67,
-        "messages_change": 17407,
-        "chatters_change": 502
+        "viewers_change": 506,
+        "followers_change": 79,
+        "messages_change": 19341,
+        "chatters_change": 545
       }
     },
     "terablade": {
@@ -7411,7 +7751,7 @@
       "display_name": "狂暴小建",
       "url": "https://www.twitch.tv/a541021",
       "first_seen_msk": "2026-05-25 12:48:41 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 14:55:37 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 12:48:41 МСК",
@@ -7917,16 +8257,50 @@
             "messages_change": 0,
             "chatters_change": 0
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1184,
+          "follower_count": 233854,
+          "stream_title": "【小建】5/27 倒數兩天，今天要拼。日本十天一百萬小馬幣 小鋼珠/SLOT教學直播 目前Day9 -19.5張",
+          "started_at_msk": "2026-05-27 03:29:17 МСК",
+          "duration_hours": 10.9,
+          "total_messages": 44912623,
+          "unique_chatters": 38569,
+          "ratio": 0.51,
+          "growth": {
+            "viewers_change": 20,
+            "followers_change": 1,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1189,
+          "follower_count": 233853,
+          "stream_title": "【小建】5/27 倒數兩天，今天要拼。日本十天一百萬小馬幣 小鋼珠/SLOT教學直播 目前Day9 -19.5張",
+          "started_at_msk": "2026-05-27 03:29:17 МСК",
+          "duration_hours": 11.4,
+          "total_messages": 44912623,
+          "unique_chatters": 38569,
+          "ratio": 0.51,
+          "growth": {
+            "viewers_change": 5,
+            "followers_change": -1,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
       "peak_viewers": 1225,
-      "avg_viewers": 1104.2,
-      "total_snapshots": 30,
+      "avg_viewers": 1109.3,
+      "total_snapshots": 32,
       "avg_viewer_to_follower_ratio": 0.47,
       "avg_total_messages": 44912623.0,
       "avg_unique_chatters": 38569.0,
       "total_growth": {
-        "viewers_change": -58,
+        "viewers_change": -33,
         "followers_change": -18,
         "messages_change": 0,
         "chatters_change": 0
@@ -9010,7 +9384,7 @@
       "display_name": "arthurperti",
       "url": "https://www.twitch.tv/arthurperti",
       "first_seen_msk": "2026-05-25 13:19:01 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:26:04 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 13:19:01 МСК",
@@ -9278,19 +9652,70 @@
             "messages_change": 502,
             "chatters_change": 41
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1610,
+          "follower_count": 60162,
+          "stream_title": "Pertidej sous canicule deuxième édition (1 sub = 1 dragée surprise)",
+          "started_at_msk": "2026-05-27 12:22:35 МСК",
+          "duration_hours": 2.0,
+          "total_messages": 652229,
+          "unique_chatters": 4629,
+          "ratio": 2.68,
+          "growth": {
+            "viewers_change": 213,
+            "followers_change": 6,
+            "messages_change": 459,
+            "chatters_change": 38
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1591,
+          "follower_count": 60169,
+          "stream_title": "Pertidej sous canicule deuxième édition (1 sub = 1 dragée surprise)",
+          "started_at_msk": "2026-05-27 12:22:35 МСК",
+          "duration_hours": 2.6,
+          "total_messages": 652912,
+          "unique_chatters": 4697,
+          "ratio": 2.64,
+          "growth": {
+            "viewers_change": -19,
+            "followers_change": 7,
+            "messages_change": 683,
+            "chatters_change": 68
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 1438,
+          "follower_count": 60176,
+          "stream_title": "Pertidej sous canicule deuxième édition (1 sub = 1 dragée surprise)",
+          "started_at_msk": "2026-05-27 12:22:35 МСК",
+          "duration_hours": 3.1,
+          "total_messages": 653418,
+          "unique_chatters": 4720,
+          "ratio": 2.39,
+          "growth": {
+            "viewers_change": -153,
+            "followers_change": 7,
+            "messages_change": 506,
+            "chatters_change": 23
+          }
         }
       ],
       "peak_viewers": 3672,
-      "avg_viewers": 2406.8,
-      "total_snapshots": 16,
-      "avg_viewer_to_follower_ratio": 4.01,
-      "avg_total_messages": 644405.0,
-      "avg_unique_chatters": 3940.0,
+      "avg_viewers": 2270.9,
+      "total_snapshots": 19,
+      "avg_viewer_to_follower_ratio": 3.78,
+      "avg_total_messages": 645739.0,
+      "avg_unique_chatters": 4057.0,
       "total_growth": {
-        "viewers_change": -831,
-        "followers_change": 254,
-        "messages_change": 15080,
-        "chatters_change": 1459
+        "viewers_change": -790,
+        "followers_change": 274,
+        "messages_change": 16728,
+        "chatters_change": 1588
       }
     },
     "zacknani": {
@@ -9673,7 +10098,7 @@
       "display_name": "Clemovitch",
       "url": "https://www.twitch.tv/clemovitch",
       "first_seen_msk": "2026-05-25 13:19:01 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 13:19:01 МСК",
@@ -9839,19 +10264,87 @@
             "messages_change": 1641,
             "chatters_change": 134
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 5219,
+          "follower_count": 216783,
+          "stream_title": "Gabriel Attal SÉCHÉ par Duhamel ? Glucksmann : LA CATA ! | Le Café Rhétorique en tournée !",
+          "started_at_msk": "2026-05-27 13:33:57 МСК",
+          "duration_hours": 0.9,
+          "total_messages": 2964394,
+          "unique_chatters": 9901,
+          "ratio": 2.41,
+          "growth": {
+            "viewers_change": 2129,
+            "followers_change": 9,
+            "messages_change": 1390,
+            "chatters_change": 131
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 6608,
+          "follower_count": 216792,
+          "stream_title": "Gabriel Attal SÉCHÉ par Duhamel ? Glucksmann : LA CATA ! | Le Café Rhétorique en tournée !",
+          "started_at_msk": "2026-05-27 13:33:57 МСК",
+          "duration_hours": 1.4,
+          "total_messages": 2965258,
+          "unique_chatters": 9982,
+          "ratio": 3.05,
+          "growth": {
+            "viewers_change": 1389,
+            "followers_change": 9,
+            "messages_change": 864,
+            "chatters_change": 81
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 7346,
+          "follower_count": 216800,
+          "stream_title": "Gabriel Attal SÉCHÉ par Duhamel ? Glucksmann : LA CATA ! | Le Café Rhétorique en tournée !",
+          "started_at_msk": "2026-05-27 13:33:57 МСК",
+          "duration_hours": 1.9,
+          "total_messages": 2966501,
+          "unique_chatters": 10063,
+          "ratio": 3.39,
+          "growth": {
+            "viewers_change": 738,
+            "followers_change": 8,
+            "messages_change": 1243,
+            "chatters_change": 81
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 8741,
+          "follower_count": 216814,
+          "stream_title": "Gabriel Attal SÉCHÉ par Duhamel ? Glucksmann : LA CATA ! | Le Café Rhétorique en tournée !",
+          "started_at_msk": "2026-05-27 13:33:57 МСК",
+          "duration_hours": 2.4,
+          "total_messages": 2968644,
+          "unique_chatters": 10253,
+          "ratio": 4.03,
+          "growth": {
+            "viewers_change": 1395,
+            "followers_change": 14,
+            "messages_change": 2143,
+            "chatters_change": 190
+          }
         }
       ],
-      "peak_viewers": 8247,
-      "avg_viewers": 6460.3,
-      "total_snapshots": 10,
-      "avg_viewer_to_follower_ratio": 2.98,
-      "avg_total_messages": 2957257.0,
-      "avg_unique_chatters": 9313.0,
+      "peak_viewers": 8741,
+      "avg_viewers": 6608.4,
+      "total_snapshots": 14,
+      "avg_viewer_to_follower_ratio": 3.05,
+      "avg_total_messages": 2959812.0,
+      "avg_unique_chatters": 9524.0,
       "total_growth": {
-        "viewers_change": 1765,
-        "followers_change": 185,
-        "messages_change": 11250,
-        "chatters_change": 944
+        "viewers_change": 7416,
+        "followers_change": 225,
+        "messages_change": 16890,
+        "chatters_change": 1427
       }
     },
     "z60411": {
@@ -10936,7 +11429,7 @@
       "display_name": "korya_mc",
       "url": "https://www.twitch.tv/korya_mc",
       "first_seen_msk": "2026-05-25 14:19:43 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 14:25:14 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 14:19:43 МСК",
@@ -11187,15 +11680,32 @@
             "messages_change": 0,
             "chatters_change": 0
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1868,
+          "follower_count": 446110,
+          "stream_title": "😈 ТАИНСТВЕННЫЙ DELUX КОСПЛЕЙ НА АГЕНТА 007 😍 | !tg !winline !записи",
+          "started_at_msk": "2026-05-27 13:27:18 МСК",
+          "duration_hours": 1.0,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.42,
+          "growth": {
+            "viewers_change": 310,
+            "followers_change": 31,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
       "peak_viewers": 3430,
-      "avg_viewers": 2385.5,
-      "total_snapshots": 15,
+      "avg_viewers": 2353.1,
+      "total_snapshots": 16,
       "avg_viewer_to_follower_ratio": 0.53,
       "total_growth": {
-        "viewers_change": 81,
-        "followers_change": 283,
+        "viewers_change": 391,
+        "followers_change": 314,
         "messages_change": 0,
         "chatters_change": 0
       }
@@ -11787,7 +12297,7 @@
       "display_name": "Stintik",
       "url": "https://www.twitch.tv/stintik",
       "first_seen_msk": "2026-05-25 15:20:28 МСК",
-      "last_seen_msk": "2026-05-26 17:52:48 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 15:20:28 МСК",
@@ -12021,17 +12531,51 @@
             "messages_change": 0,
             "chatters_change": 0
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 3325,
+          "follower_count": 1514268,
+          "stream_title": "ну чо как пам бам | !тг !приватка",
+          "started_at_msk": "2026-05-27 14:53:27 МСК",
+          "duration_hours": 0.5,
+          "total_messages": 2964900,
+          "unique_chatters": 9279,
+          "ratio": 0.22,
+          "growth": {
+            "viewers_change": -773,
+            "followers_change": 383,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 4491,
+          "follower_count": 1514361,
+          "stream_title": "ну чо как пам бам | !тг !приватка",
+          "started_at_msk": "2026-05-27 14:53:27 МСК",
+          "duration_hours": 1.1,
+          "total_messages": 2964900,
+          "unique_chatters": 9279,
+          "ratio": 0.3,
+          "growth": {
+            "viewers_change": 1166,
+            "followers_change": 93,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
       "peak_viewers": 5570,
-      "avg_viewers": 4574.5,
-      "total_snapshots": 14,
+      "avg_viewers": 4491.2,
+      "total_snapshots": 16,
       "avg_viewer_to_follower_ratio": 0.3,
       "avg_total_messages": 2964900.0,
       "avg_unique_chatters": 9279.0,
       "total_growth": {
-        "viewers_change": -97,
-        "followers_change": 2672,
+        "viewers_change": 296,
+        "followers_change": 3148,
         "messages_change": 0,
         "chatters_change": 0
       }
@@ -12365,7 +12909,7 @@
       "display_name": "BruceGrannec",
       "url": "https://www.twitch.tv/brucegrannec",
       "first_seen_msk": "2026-05-25 15:20:28 МСК",
-      "last_seen_msk": "2026-05-25 16:21:16 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 15:20:28 МСК",
@@ -12412,17 +12956,85 @@
             "messages_change": 0,
             "chatters_change": 0
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1091,
+          "follower_count": 707558,
+          "stream_title": "🎙️ CA PARLE FOOT & UN PEU DE TOUT ! ⚽️",
+          "started_at_msk": "2026-05-27 13:40:27 МСК",
+          "duration_hours": 0.7,
+          "total_messages": 17596724,
+          "unique_chatters": 35032,
+          "ratio": 0.15,
+          "growth": {
+            "viewers_change": -1475,
+            "followers_change": 36,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1259,
+          "follower_count": 707564,
+          "stream_title": "🎙️ CA PARLE FOOT & UN PEU DE TOUT ! ⚽️",
+          "started_at_msk": "2026-05-27 13:40:27 МСК",
+          "duration_hours": 1.3,
+          "total_messages": 17596724,
+          "unique_chatters": 35032,
+          "ratio": 0.18,
+          "growth": {
+            "viewers_change": 168,
+            "followers_change": 6,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 1339,
+          "follower_count": 707572,
+          "stream_title": "🎙️ CA PARLE FOOT & UN PEU DE TOUT ! ⚽️",
+          "started_at_msk": "2026-05-27 13:40:27 МСК",
+          "duration_hours": 1.8,
+          "total_messages": 17596724,
+          "unique_chatters": 35032,
+          "ratio": 0.19,
+          "growth": {
+            "viewers_change": 80,
+            "followers_change": 8,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 1519,
+          "follower_count": 707577,
+          "stream_title": "🎙️ CA PARLE FOOT & UN PEU DE TOUT ! ⚽️",
+          "started_at_msk": "2026-05-27 13:40:27 МСК",
+          "duration_hours": 2.3,
+          "total_messages": 17596724,
+          "unique_chatters": 35032,
+          "ratio": 0.21,
+          "growth": {
+            "viewers_change": 180,
+            "followers_change": 5,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
       "peak_viewers": 2566,
-      "avg_viewers": 2225.7,
-      "total_snapshots": 3,
-      "avg_viewer_to_follower_ratio": 0.31,
+      "avg_viewers": 1697.9,
+      "total_snapshots": 7,
+      "avg_viewer_to_follower_ratio": 0.24,
       "avg_total_messages": 17596724.0,
       "avg_unique_chatters": 35032.0,
       "total_growth": {
-        "viewers_change": 711,
-        "followers_change": 17,
+        "viewers_change": -336,
+        "followers_change": 72,
         "messages_change": 0,
         "chatters_change": 0
       }
@@ -12793,7 +13405,7 @@
       "display_name": "梓澪與村長",
       "url": "https://www.twitch.tv/s201111",
       "first_seen_msk": "2026-05-25 15:50:54 МСК",
-      "last_seen_msk": "2026-05-25 18:05:38 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 15:50:54 МСК",
@@ -12857,19 +13469,36 @@
             "messages_change": 455,
             "chatters_change": 17
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 2403,
+          "follower_count": 325696,
+          "stream_title": "[馬騮村] 梓澪 | 大大跳，今天我生日，祝我生日快樂，又要年輕一歲了(ﾉ>ω<)ﾉ 還有抽獎喔 | !linktree !Cosplay | ★27/05 19:30★ | @s201111",
+          "started_at_msk": "2026-05-27 15:13:54 МСК",
+          "duration_hours": 0.7,
+          "total_messages": 2474437,
+          "unique_chatters": 4559,
+          "ratio": 0.74,
+          "growth": {
+            "viewers_change": 411,
+            "followers_change": 31,
+            "messages_change": 1331,
+            "chatters_change": 87
+          }
         }
       ],
-      "peak_viewers": 2261,
-      "avg_viewers": 2100.2,
-      "total_snapshots": 4,
-      "avg_viewer_to_follower_ratio": 0.64,
-      "avg_total_messages": 2472603.0,
-      "avg_unique_chatters": 4454.0,
+      "peak_viewers": 2403,
+      "avg_viewers": 2160.8,
+      "total_snapshots": 5,
+      "avg_viewer_to_follower_ratio": 0.66,
+      "avg_total_messages": 2472970.0,
+      "avg_unique_chatters": 4475.0,
       "total_growth": {
-        "viewers_change": -27,
-        "followers_change": 84,
-        "messages_change": 874,
-        "chatters_change": 30
+        "viewers_change": 384,
+        "followers_change": 115,
+        "messages_change": 2205,
+        "chatters_change": 117
       }
     },
     "kuchentv": {
@@ -17990,7 +18619,7 @@
       "display_name": "SanteaTv",
       "url": "https://www.twitch.tv/santeatv",
       "first_seen_msk": "2026-05-25 19:36:41 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 19:36:41 МСК",
@@ -19295,19 +19924,87 @@
             "messages_change": 513,
             "chatters_change": 14
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1213,
+          "follower_count": 163020,
+          "stream_title": "BRAZIL Day 3 🇧🇷 Friends day ❤️",
+          "started_at_msk": "2026-05-26 20:37:52 МСК",
+          "duration_hours": 17.8,
+          "total_messages": 992380,
+          "unique_chatters": 19883,
+          "ratio": 0.74,
+          "growth": {
+            "viewers_change": 8,
+            "followers_change": 49,
+            "messages_change": 305,
+            "chatters_change": 14
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1206,
+          "follower_count": 163074,
+          "stream_title": "BRAZIL Day 3 🇧🇷 Friends day ❤️",
+          "started_at_msk": "2026-05-26 20:37:52 МСК",
+          "duration_hours": 18.3,
+          "total_messages": 992905,
+          "unique_chatters": 19894,
+          "ratio": 0.74,
+          "growth": {
+            "viewers_change": -7,
+            "followers_change": 54,
+            "messages_change": 525,
+            "chatters_change": 11
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 1259,
+          "follower_count": 163144,
+          "stream_title": "BRAZIL Day 3 🇧🇷 Friends day ❤️",
+          "started_at_msk": "2026-05-26 20:37:52 МСК",
+          "duration_hours": 18.8,
+          "total_messages": 993526,
+          "unique_chatters": 19914,
+          "ratio": 0.77,
+          "growth": {
+            "viewers_change": 53,
+            "followers_change": 70,
+            "messages_change": 621,
+            "chatters_change": 20
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 1546,
+          "follower_count": 163213,
+          "stream_title": "BRAZIL Day 3 🇧🇷 Friends day ❤️",
+          "started_at_msk": "2026-05-26 20:37:52 МСК",
+          "duration_hours": 19.3,
+          "total_messages": 994006,
+          "unique_chatters": 19943,
+          "ratio": 0.95,
+          "growth": {
+            "viewers_change": 287,
+            "followers_change": 69,
+            "messages_change": 480,
+            "chatters_change": 29
+          }
         }
       ],
       "peak_viewers": 14238,
-      "avg_viewers": 5741.6,
-      "total_snapshots": 77,
-      "avg_viewer_to_follower_ratio": 3.82,
-      "avg_total_messages": 910918.0,
-      "avg_unique_chatters": 14752.0,
+      "avg_viewers": 5522.5,
+      "total_snapshots": 81,
+      "avg_viewer_to_follower_ratio": 3.67,
+      "avg_total_messages": 915688.0,
+      "avg_unique_chatters": 15051.0,
       "total_growth": {
-        "viewers_change": -2043,
-        "followers_change": 26193,
-        "messages_change": 148067,
-        "chatters_change": 10047
+        "viewers_change": -1702,
+        "followers_change": 26435,
+        "messages_change": 149998,
+        "chatters_change": 10121
       }
     },
     "zentreya": {
@@ -19620,7 +20317,7 @@
       "display_name": "Velcuz",
       "url": "https://www.twitch.tv/velcuz",
       "first_seen_msk": "2026-05-25 20:07:03 МСК",
-      "last_seen_msk": "2026-05-26 19:54:11 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-25 20:07:03 МСК",
@@ -19667,19 +20364,36 @@
             "messages_change": 0,
             "chatters_change": 0
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 922,
+          "follower_count": 48423,
+          "stream_title": "ALPS AND VALLEYS 🇨🇭 WITH @Divvity @TenzinNiznet EUROVAN(broken) DAY 19 🇪🇺 !airalo",
+          "started_at_msk": "2026-05-27 14:31:16 МСК",
+          "duration_hours": 1.4,
+          "total_messages": 35668981,
+          "unique_chatters": 12940,
+          "ratio": 1.9,
+          "growth": {
+            "viewers_change": -471,
+            "followers_change": 42,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
       "peak_viewers": 1820,
-      "avg_viewers": 1622.0,
-      "total_snapshots": 3,
-      "avg_viewer_to_follower_ratio": 3.36,
-      "avg_total_messages": 35578667.0,
-      "avg_unique_chatters": 12481.0,
+      "avg_viewers": 1447.0,
+      "total_snapshots": 4,
+      "avg_viewer_to_follower_ratio": 2.99,
+      "avg_total_messages": 35608772.0,
+      "avg_unique_chatters": 12634.0,
       "total_growth": {
-        "viewers_change": -427,
-        "followers_change": 117,
-        "messages_change": 0,
-        "chatters_change": 0
+        "viewers_change": -898,
+        "followers_change": 159,
+        "messages_change": 101120,
+        "chatters_change": 536
       }
     },
     "rubius": {
@@ -36152,7 +36866,7 @@
       "display_name": "懶貓",
       "url": "https://www.twitch.tv/failverde",
       "first_seen_msk": "2026-05-26 09:47:29 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-26 09:47:29 МСК",
@@ -36641,19 +37355,87 @@
             "messages_change": 494,
             "chatters_change": 2
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 2178,
+          "follower_count": 298593,
+          "stream_title": "【懶貓】5/27 掛台送訂拿小丑頭像 訂閱者回饋只到這週末 !訂閱者回饋",
+          "started_at_msk": "2026-05-27 04:52:00 МСК",
+          "duration_hours": 9.6,
+          "total_messages": 48145033,
+          "unique_chatters": 34000,
+          "ratio": 0.73,
+          "growth": {
+            "viewers_change": 107,
+            "followers_change": -1,
+            "messages_change": 810,
+            "chatters_change": 4
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 2375,
+          "follower_count": 298595,
+          "stream_title": "【懶貓】5/27 掛台送訂拿小丑頭像 訂閱者回饋只到這週末 !訂閱者回饋",
+          "started_at_msk": "2026-05-27 04:52:00 МСК",
+          "duration_hours": 10.1,
+          "total_messages": 48146524,
+          "unique_chatters": 34008,
+          "ratio": 0.8,
+          "growth": {
+            "viewers_change": 197,
+            "followers_change": 2,
+            "messages_change": 1491,
+            "chatters_change": 8
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 2422,
+          "follower_count": 298593,
+          "stream_title": "【懶貓】5/27 掛台送訂拿小丑頭像 訂閱者回饋只到這週末 !訂閱者回饋",
+          "started_at_msk": "2026-05-27 04:52:00 МСК",
+          "duration_hours": 10.6,
+          "total_messages": 48148232,
+          "unique_chatters": 34014,
+          "ratio": 0.81,
+          "growth": {
+            "viewers_change": 47,
+            "followers_change": -2,
+            "messages_change": 1708,
+            "chatters_change": 6
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 2594,
+          "follower_count": 298594,
+          "stream_title": "【懶貓】5/27 掛台送訂拿小丑頭像 訂閱者回饋只到這週末 !訂閱者回饋",
+          "started_at_msk": "2026-05-27 04:52:00 МСК",
+          "duration_hours": 11.1,
+          "total_messages": 48152112,
+          "unique_chatters": 34024,
+          "ratio": 0.87,
+          "growth": {
+            "viewers_change": 172,
+            "followers_change": 1,
+            "messages_change": 3880,
+            "chatters_change": 10
+          }
         }
       ],
-      "peak_viewers": 2173,
-      "avg_viewers": 1767.2,
-      "total_snapshots": 29,
-      "avg_viewer_to_follower_ratio": 0.59,
-      "avg_total_messages": 48136971.0,
-      "avg_unique_chatters": 33952.0,
+      "peak_viewers": 2594,
+      "avg_viewers": 1843.0,
+      "total_snapshots": 33,
+      "avg_viewer_to_follower_ratio": 0.62,
+      "avg_total_messages": 48138305.0,
+      "avg_unique_chatters": 33959.0,
       "total_growth": {
-        "viewers_change": 947,
+        "viewers_change": 1470,
         "followers_change": 21,
-        "messages_change": 18372,
-        "chatters_change": 95
+        "messages_change": 26261,
+        "chatters_change": 123
       }
     },
     "dracon": {
@@ -37181,7 +37963,7 @@
       "display_name": "melharucos",
       "url": "https://www.twitch.tv/melharucos",
       "first_seen_msk": "2026-05-26 10:48:06 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 14:25:14 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-26 10:48:06 МСК",
@@ -37330,19 +38112,36 @@
             "messages_change": 3604,
             "chatters_change": 44
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 5634,
+          "follower_count": 450058,
+          "stream_title": "Я новенький, зовите меня однорукус",
+          "started_at_msk": "2026-05-27 10:24:50 МСК",
+          "duration_hours": 4.0,
+          "total_messages": 82110555,
+          "unique_chatters": 75099,
+          "ratio": 1.25,
+          "growth": {
+            "viewers_change": -389,
+            "followers_change": 2,
+            "messages_change": 3637,
+            "chatters_change": 53
+          }
         }
       ],
       "peak_viewers": 6126,
-      "avg_viewers": 4866.0,
-      "total_snapshots": 9,
-      "avg_viewer_to_follower_ratio": 1.08,
-      "avg_total_messages": 82092301.0,
-      "avg_unique_chatters": 74840.0,
+      "avg_viewers": 4942.8,
+      "total_snapshots": 10,
+      "avg_viewer_to_follower_ratio": 1.1,
+      "avg_total_messages": 82094126.0,
+      "avg_unique_chatters": 74866.0,
       "total_growth": {
-        "viewers_change": 2016,
-        "followers_change": 45,
-        "messages_change": 29162,
-        "chatters_change": 445
+        "viewers_change": 1627,
+        "followers_change": 47,
+        "messages_change": 32799,
+        "chatters_change": 498
       }
     },
     "kiss_850722": {
@@ -38144,7 +38943,7 @@
       "display_name": "CookSux",
       "url": "https://www.twitch.tv/cooksux",
       "first_seen_msk": "2026-05-26 12:19:06 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-26 12:19:06 МСК",
@@ -38293,19 +39092,53 @@
             "messages_change": 742,
             "chatters_change": 54
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 724,
+          "follower_count": 105841,
+          "stream_title": "IRL ITALY 🇮🇹 M-M-M-My Verona | @cooksux @studytme | $2 TTS/Tangia | Verona",
+          "started_at_msk": "2026-05-27 12:43:18 МСК",
+          "duration_hours": 2.7,
+          "total_messages": 13823879,
+          "unique_chatters": 17816,
+          "ratio": 0.68,
+          "growth": {
+            "viewers_change": 139,
+            "followers_change": 7,
+            "messages_change": 1126,
+            "chatters_change": 90
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 556,
+          "follower_count": 105843,
+          "stream_title": "IRL ITALY 🇮🇹 M-M-M-My Verona | @cooksux @studytme | $2 TTS/Tangia | Verona",
+          "started_at_msk": "2026-05-27 12:43:18 МСК",
+          "duration_hours": 3.2,
+          "total_messages": 13824541,
+          "unique_chatters": 17848,
+          "ratio": 0.53,
+          "growth": {
+            "viewers_change": -168,
+            "followers_change": 2,
+            "messages_change": 662,
+            "chatters_change": 32
+          }
         }
       ],
       "peak_viewers": 1377,
-      "avg_viewers": 1194.4,
-      "total_snapshots": 9,
-      "avg_viewer_to_follower_ratio": 1.13,
-      "avg_total_messages": 13820867.0,
-      "avg_unique_chatters": 17646.0,
+      "avg_viewers": 1093.6,
+      "total_snapshots": 11,
+      "avg_viewer_to_follower_ratio": 1.03,
+      "avg_total_messages": 13821475.0,
+      "avg_unique_chatters": 17680.0,
       "total_growth": {
-        "viewers_change": -578,
-        "followers_change": 9,
-        "messages_change": 3393,
-        "chatters_change": 128
+        "viewers_change": -607,
+        "followers_change": 18,
+        "messages_change": 5181,
+        "chatters_change": 250
       }
     },
     "salmmus": {
@@ -39427,7 +40260,7 @@
       "display_name": "HandOfBlood",
       "url": "https://www.twitch.tv/handofblood",
       "first_seen_msk": "2026-05-26 14:20:28 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-26 14:20:28 МСК",
@@ -39508,19 +40341,70 @@
             "messages_change": 13711,
             "chatters_change": 922
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 6889,
+          "follower_count": 1628008,
+          "stream_title": "🔥 BERGFEEEST MIT SPECIAL GUESTS 🔥",
+          "started_at_msk": "2026-05-27 13:46:03 МСК",
+          "duration_hours": 0.7,
+          "total_messages": 17565714,
+          "unique_chatters": 37673,
+          "ratio": 0.42,
+          "growth": {
+            "viewers_change": 5923,
+            "followers_change": 22,
+            "messages_change": 1747,
+            "chatters_change": 108
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 7177,
+          "follower_count": 1628047,
+          "stream_title": "🔥 CORRUPTED BLOOD RECORDS NEWS 🔥",
+          "started_at_msk": "2026-05-27 13:46:03 МСК",
+          "duration_hours": 1.7,
+          "total_messages": 17567156,
+          "unique_chatters": 37806,
+          "ratio": 0.44,
+          "growth": {
+            "viewers_change": 288,
+            "followers_change": 39,
+            "messages_change": 1442,
+            "chatters_change": 133
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 7283,
+          "follower_count": 1628064,
+          "stream_title": "🔥 DIE ERSTE CORRUPTED BLOOD RECORDS TRYOUT BAND: VIOLENT VORTEX! | !Tryout !PitSession !Hurricane 🔥",
+          "started_at_msk": "2026-05-27 13:46:03 МСК",
+          "duration_hours": 2.2,
+          "total_messages": 17567709,
+          "unique_chatters": 37874,
+          "ratio": 0.45,
+          "growth": {
+            "viewers_change": 106,
+            "followers_change": 17,
+            "messages_change": 553,
+            "chatters_change": 68
+          }
         }
       ],
       "peak_viewers": 11534,
-      "avg_viewers": 7343.4,
-      "total_snapshots": 5,
+      "avg_viewers": 7258.2,
+      "total_snapshots": 8,
       "avg_viewer_to_follower_ratio": 0.45,
-      "avg_total_messages": 17549626.0,
-      "avg_unique_chatters": 36490.0,
+      "avg_total_messages": 17556089.0,
+      "avg_unique_chatters": 36976.0,
       "total_growth": {
-        "viewers_change": -4973,
-        "followers_change": 214,
-        "messages_change": 21235,
-        "chatters_change": 1653
+        "viewers_change": 1344,
+        "followers_change": 292,
+        "messages_change": 24977,
+        "chatters_change": 1962
       }
     },
     "god_lita": {
@@ -39529,7 +40413,7 @@
       "display_name": "갓리타",
       "url": "https://www.twitch.tv/god_lita",
       "first_seen_msk": "2026-05-26 14:20:28 МСК",
-      "last_seen_msk": "2026-05-26 14:20:28 МСК",
+      "last_seen_msk": "2026-05-27 15:26:04 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-26 14:20:28 МСК",
@@ -39542,12 +40426,69 @@
           "unique_chatters": 0,
           "ratio": 0.83,
           "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1059,
+          "follower_count": 153906,
+          "stream_title": "[!fantrie/!instagram] PinkPink💗💗",
+          "started_at_msk": "2026-05-27 13:04:11 МСК",
+          "duration_hours": 1.4,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.69,
+          "growth": {
+            "viewers_change": -220,
+            "followers_change": 78,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1302,
+          "follower_count": 153938,
+          "stream_title": "[!fantrie/!instagram] PinkPink💗💗",
+          "started_at_msk": "2026-05-27 13:04:11 МСК",
+          "duration_hours": 1.9,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.85,
+          "growth": {
+            "viewers_change": 243,
+            "followers_change": 32,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 1306,
+          "follower_count": 153957,
+          "stream_title": "[!fantrie/!instagram] PinkPink💗💗",
+          "started_at_msk": "2026-05-27 13:04:11 МСК",
+          "duration_hours": 2.4,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.85,
+          "growth": {
+            "viewers_change": 4,
+            "followers_change": 19,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
-      "peak_viewers": 1279,
-      "avg_viewers": 1279.0,
-      "total_snapshots": 1,
-      "avg_viewer_to_follower_ratio": 0.83
+      "peak_viewers": 1306,
+      "avg_viewers": 1236.5,
+      "total_snapshots": 4,
+      "avg_viewer_to_follower_ratio": 0.8,
+      "total_growth": {
+        "viewers_change": 27,
+        "followers_change": 129,
+        "messages_change": 0,
+        "chatters_change": 0
+      }
     },
     "sam1268": {
       "user_id": "315943608433",
@@ -40617,7 +41558,7 @@
       "display_name": "MuHaNjAn",
       "url": "https://www.twitch.tv/muhanjan",
       "first_seen_msk": "2026-05-26 16:21:46 МСК",
-      "last_seen_msk": "2026-05-26 17:22:28 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-26 16:21:46 МСК",
@@ -40664,17 +41605,85 @@
             "messages_change": 0,
             "chatters_change": 0
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 2065,
+          "follower_count": 207436,
+          "stream_title": "СТРИМЛЮ С ПОДРУГОЙ ИЗ ПРОШЛОГО @lina_meow_girl !tg !donate",
+          "started_at_msk": "2026-05-27 13:53:53 МСК",
+          "duration_hours": 0.5,
+          "total_messages": 12651273,
+          "unique_chatters": 24173,
+          "ratio": 1.0,
+          "growth": {
+            "viewers_change": 512,
+            "followers_change": 53,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 2521,
+          "follower_count": 207461,
+          "stream_title": "СТРИМЛЮ С ПОДРУГОЙ ИЗ ПРОШЛОГО @lina_meow_girl !tg !donate",
+          "started_at_msk": "2026-05-27 13:53:53 МСК",
+          "duration_hours": 1.0,
+          "total_messages": 12651273,
+          "unique_chatters": 24173,
+          "ratio": 1.22,
+          "growth": {
+            "viewers_change": 456,
+            "followers_change": 25,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 2886,
+          "follower_count": 207488,
+          "stream_title": "СТРИМЛЮ С ПОДРУГОЙ ИЗ ПРОШЛОГО @lina_meow_girl !tg !donate",
+          "started_at_msk": "2026-05-27 13:53:53 МСК",
+          "duration_hours": 1.5,
+          "total_messages": 12651273,
+          "unique_chatters": 24173,
+          "ratio": 1.39,
+          "growth": {
+            "viewers_change": 365,
+            "followers_change": 27,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 3472,
+          "follower_count": 207505,
+          "stream_title": "СТРИМЛЮ С ПОДРУГОЙ ИЗ ПРОШЛОГО @lina_meow_girl !tg !donate",
+          "started_at_msk": "2026-05-27 13:53:53 МСК",
+          "duration_hours": 2.0,
+          "total_messages": 12651273,
+          "unique_chatters": 24173,
+          "ratio": 1.67,
+          "growth": {
+            "viewers_change": 586,
+            "followers_change": 17,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
-      "peak_viewers": 1580,
-      "avg_viewers": 1557.7,
-      "total_snapshots": 3,
-      "avg_viewer_to_follower_ratio": 0.75,
+      "peak_viewers": 3472,
+      "avg_viewers": 2231.0,
+      "total_snapshots": 7,
+      "avg_viewer_to_follower_ratio": 1.08,
       "avg_total_messages": 12651273.0,
       "avg_unique_chatters": 24173.0,
       "total_growth": {
-        "viewers_change": 13,
-        "followers_change": 17,
+        "viewers_change": 1932,
+        "followers_change": 139,
         "messages_change": 0,
         "chatters_change": 0
       }
@@ -42855,7 +43864,7 @@
       "display_name": "derzko69",
       "url": "https://www.twitch.tv/derzko69",
       "first_seen_msk": "2026-05-26 19:54:11 МСК",
-      "last_seen_msk": "2026-05-26 21:27:45 МСК",
+      "last_seen_msk": "2026-05-27 15:26:04 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-26 19:54:11 МСК",
@@ -42919,18 +43928,37 @@
             "messages_change": 0,
             "chatters_change": 0
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 2031,
+          "follower_count": 1544246,
+          "stream_title": "САМЫЙ СТРАННЫЙ СТРИМ!😳 | Вы можете отправить мне посылку, вся инфа в ТГ - gigaderzko69 | !правила !тг !pixel !яндексмаркет",
+          "started_at_msk": "2026-05-27 15:00:03 МСК",
+          "duration_hours": 0.4,
+          "total_messages": 9048099,
+          "unique_chatters": 27480,
+          "ratio": 0.13,
+          "growth": {
+            "viewers_change": -4823,
+            "followers_change": 522,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
       "peak_viewers": 6854,
-      "avg_viewers": 5792.2,
-      "total_snapshots": 4,
-      "avg_viewer_to_follower_ratio": 0.38,
+      "avg_viewers": 5040.0,
+      "total_snapshots": 5,
+      "avg_viewer_to_follower_ratio": 0.33,
       "total_growth": {
-        "viewers_change": 2133,
-        "followers_change": 221,
+        "viewers_change": -2690,
+        "followers_change": 743,
         "messages_change": 0,
         "chatters_change": 0
-      }
+      },
+      "avg_total_messages": 9048099.0,
+      "avg_unique_chatters": 27480.0
     },
     "themajorityreport": {
       "user_id": "318707808350",
@@ -45473,7 +46501,7 @@
       "display_name": "whylollycry",
       "url": "https://www.twitch.tv/whylollycry",
       "first_seen_msk": "2026-05-27 00:34:40 МСК",
-      "last_seen_msk": "2026-05-27 01:05:41 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-27 00:34:40 МСК",
@@ -45503,18 +46531,54 @@
             "messages_change": 0,
             "chatters_change": 0
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 2545,
+          "follower_count": 167017,
+          "stream_title": "gmчик | !tg !bb",
+          "started_at_msk": "2026-05-27 14:35:22 МСК",
+          "duration_hours": 0.8,
+          "total_messages": 3922846,
+          "unique_chatters": 6969,
+          "ratio": 1.52,
+          "growth": {
+            "viewers_change": -212,
+            "followers_change": 4,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 2781,
+          "follower_count": 167025,
+          "stream_title": "gmчик | !tg !bb",
+          "started_at_msk": "2026-05-27 14:35:22 МСК",
+          "duration_hours": 1.4,
+          "total_messages": 3924627,
+          "unique_chatters": 6981,
+          "ratio": 1.67,
+          "growth": {
+            "viewers_change": 236,
+            "followers_change": 8,
+            "messages_change": 1781,
+            "chatters_change": 12
+          }
         }
       ],
       "peak_viewers": 2985,
-      "avg_viewers": 2871.0,
-      "total_snapshots": 2,
-      "avg_viewer_to_follower_ratio": 1.72,
+      "avg_viewers": 2767.0,
+      "total_snapshots": 4,
+      "avg_viewer_to_follower_ratio": 1.66,
       "total_growth": {
-        "viewers_change": -228,
-        "followers_change": 8,
+        "viewers_change": -204,
+        "followers_change": 20,
         "messages_change": 0,
         "chatters_change": 0
-      }
+      },
+      "avg_total_messages": 3923736.0,
+      "avg_unique_chatters": 6975.0
     },
     "zawa_prod": {
       "user_id": "317268498151",
@@ -48251,7 +49315,7 @@
       "display_name": "雞肉披薩",
       "url": "https://www.twitch.tv/kaoyunhsin",
       "first_seen_msk": "2026-05-27 05:16:10 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-27 05:16:10 МСК",
@@ -48485,19 +49549,87 @@
             "messages_change": 493,
             "chatters_change": 30
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 3005,
+          "follower_count": 58260,
+          "stream_title": "【雞肉披薩】5/27 還沒睡 開一下",
+          "started_at_msk": "2026-05-27 03:13:24 МСК",
+          "duration_hours": 11.2,
+          "total_messages": 638518,
+          "unique_chatters": 3074,
+          "ratio": 5.16,
+          "growth": {
+            "viewers_change": 231,
+            "followers_change": 35,
+            "messages_change": 502,
+            "chatters_change": 39
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 3144,
+          "follower_count": 58285,
+          "stream_title": "【雞肉披薩】5/27 還沒睡 開一下",
+          "started_at_msk": "2026-05-27 03:13:24 МСК",
+          "duration_hours": 11.7,
+          "total_messages": 638933,
+          "unique_chatters": 3111,
+          "ratio": 5.39,
+          "growth": {
+            "viewers_change": 139,
+            "followers_change": 25,
+            "messages_change": 415,
+            "chatters_change": 37
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 3418,
+          "follower_count": 58321,
+          "stream_title": "【雞肉披薩】5/27 還沒睡 開一下",
+          "started_at_msk": "2026-05-27 03:13:24 МСК",
+          "duration_hours": 12.2,
+          "total_messages": 639515,
+          "unique_chatters": 3156,
+          "ratio": 5.86,
+          "growth": {
+            "viewers_change": 274,
+            "followers_change": 36,
+            "messages_change": 582,
+            "chatters_change": 45
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 3649,
+          "follower_count": 58357,
+          "stream_title": "【雞肉披薩】5/27 還沒睡 開一下",
+          "started_at_msk": "2026-05-27 03:13:24 МСК",
+          "duration_hours": 12.7,
+          "total_messages": 640302,
+          "unique_chatters": 3228,
+          "ratio": 6.25,
+          "growth": {
+            "viewers_change": 231,
+            "followers_change": 36,
+            "messages_change": 787,
+            "chatters_change": 72
+          }
         }
       ],
-      "peak_viewers": 2774,
-      "avg_viewers": 2055.9,
-      "total_snapshots": 14,
-      "avg_viewer_to_follower_ratio": 3.54,
-      "avg_total_messages": 634163.0,
-      "avg_unique_chatters": 2770.0,
+      "peak_viewers": 3649,
+      "avg_viewers": 2333.3,
+      "total_snapshots": 18,
+      "avg_viewer_to_follower_ratio": 4.01,
+      "avg_total_messages": 635308.0,
+      "avg_unique_chatters": 2852.0,
       "total_growth": {
-        "viewers_change": 1083,
-        "followers_change": 254,
-        "messages_change": 8458,
-        "chatters_change": 588
+        "viewers_change": 1958,
+        "followers_change": 386,
+        "messages_change": 10744,
+        "chatters_change": 781
       }
     },
     "yusuf7n": {
@@ -49874,7 +51006,7 @@
       "display_name": "晓嫭",
       "url": "https://www.twitch.tv/siaohu_0124",
       "first_seen_msk": "2026-05-27 08:18:24 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 14:55:37 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-27 08:18:24 МСК",
@@ -50006,15 +51138,32 @@
             "messages_change": 0,
             "chatters_change": 0
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1071,
+          "follower_count": 71048,
+          "stream_title": "5/27晓嫭ㄏㄨˋ  白的 567月連續訂閱訂閱抽ipad",
+          "started_at_msk": "2026-05-27 06:07:25 МСК",
+          "duration_hours": 8.8,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 1.51,
+          "growth": {
+            "viewers_change": -58,
+            "followers_change": 9,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
       "peak_viewers": 1129,
-      "avg_viewers": 898.9,
-      "total_snapshots": 8,
-      "avg_viewer_to_follower_ratio": 1.26,
+      "avg_viewers": 918.0,
+      "total_snapshots": 9,
+      "avg_viewer_to_follower_ratio": 1.29,
       "total_growth": {
-        "viewers_change": 297,
-        "followers_change": 31,
+        "viewers_change": 239,
+        "followers_change": 40,
         "messages_change": 0,
         "chatters_change": 0
       }
@@ -50877,7 +52026,7 @@
       "display_name": "赤見かるび",
       "url": "https://www.twitch.tv/akamikarubi",
       "first_seen_msk": "2026-05-27 12:54:02 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 14:25:14 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-27 12:54:02 МСК",
@@ -50924,15 +52073,32 @@
             "messages_change": 0,
             "chatters_change": 0
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 2834,
+          "follower_count": 624663,
+          "stream_title": "ケンタッキーの今日出た新作バーガー３種類食べ比べ🍗🍔",
+          "started_at_msk": "2026-05-27 12:29:54 МСК",
+          "duration_hours": 1.9,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.45,
+          "growth": {
+            "viewers_change": 203,
+            "followers_change": 5,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
-      "peak_viewers": 2631,
-      "avg_viewers": 2494.0,
-      "total_snapshots": 3,
-      "avg_viewer_to_follower_ratio": 0.4,
+      "peak_viewers": 2834,
+      "avg_viewers": 2579.0,
+      "total_snapshots": 4,
+      "avg_viewer_to_follower_ratio": 0.41,
       "total_growth": {
-        "viewers_change": 361,
-        "followers_change": 12,
+        "viewers_change": 564,
+        "followers_change": 17,
         "messages_change": 0,
         "chatters_change": 0
       }
@@ -50943,7 +52109,7 @@
       "display_name": "miniminter",
       "url": "https://www.twitch.tv/miniminter",
       "first_seen_msk": "2026-05-27 12:54:02 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-27 12:54:02 МСК",
@@ -50990,17 +52156,85 @@
             "messages_change": 0,
             "chatters_change": 0
           }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1840,
+          "follower_count": 2158248,
+          "stream_title": "WE TALK, WE OPEN, WE HAVEN'T DECIDED THE REST | ALL SUBS AND BITS GO TO M7E",
+          "started_at_msk": "2026-05-27 12:43:43 МСК",
+          "duration_hours": 1.7,
+          "total_messages": 9447061,
+          "unique_chatters": 26606,
+          "ratio": 0.09,
+          "growth": {
+            "viewers_change": 62,
+            "followers_change": 50,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 2194,
+          "follower_count": 2158307,
+          "stream_title": "WE TALK, WE OPEN, WE HAVEN'T DECIDED THE REST | ALL SUBS AND BITS GO TO M7E",
+          "started_at_msk": "2026-05-27 12:43:43 МСК",
+          "duration_hours": 2.2,
+          "total_messages": 9447061,
+          "unique_chatters": 26606,
+          "ratio": 0.1,
+          "growth": {
+            "viewers_change": 354,
+            "followers_change": 59,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 2089,
+          "follower_count": 2158369,
+          "stream_title": "WE TALK, WE OPEN, WE HAVEN'T DECIDED THE REST | ALL SUBS AND BITS GO TO M7E",
+          "started_at_msk": "2026-05-27 12:43:43 МСК",
+          "duration_hours": 2.7,
+          "total_messages": 9447061,
+          "unique_chatters": 26606,
+          "ratio": 0.1,
+          "growth": {
+            "viewers_change": -105,
+            "followers_change": 62,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 2323,
+          "follower_count": 2158453,
+          "stream_title": "WE TALK, WE OPEN, WE HAVEN'T DECIDED THE REST | ALL SUBS AND BITS GO TO M7E",
+          "started_at_msk": "2026-05-27 12:43:43 МСК",
+          "duration_hours": 3.2,
+          "total_messages": 9447061,
+          "unique_chatters": 26606,
+          "ratio": 0.11,
+          "growth": {
+            "viewers_change": 234,
+            "followers_change": 84,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
-      "peak_viewers": 1847,
-      "avg_viewers": 1744.3,
-      "total_snapshots": 3,
-      "avg_viewer_to_follower_ratio": 0.08,
+      "peak_viewers": 2323,
+      "avg_viewers": 1954.1,
+      "total_snapshots": 7,
+      "avg_viewer_to_follower_ratio": 0.09,
       "avg_total_messages": 9447061.0,
       "avg_unique_chatters": 26606.0,
       "total_growth": {
-        "viewers_change": 170,
-        "followers_change": 122,
+        "viewers_change": 715,
+        "followers_change": 377,
         "messages_change": 0,
         "chatters_change": 0
       }
@@ -51116,7 +52350,7 @@
       "display_name": "Bebahan",
       "url": "https://www.twitch.tv/bebahan",
       "first_seen_msk": "2026-05-27 13:24:28 МСК",
-      "last_seen_msk": "2026-05-27 13:24:28 МСК",
+      "last_seen_msk": "2026-05-27 14:55:37 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-27 13:24:28 МСК",
@@ -51129,14 +52363,37 @@
           "unique_chatters": 3669,
           "ratio": 0.33,
           "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1074,
+          "follower_count": 305472,
+          "stream_title": "♡ happppy hump dayyyyy ♡ !yt !discord !socials !prime !linktr",
+          "started_at_msk": "2026-05-27 12:00:36 МСК",
+          "duration_hours": 2.9,
+          "total_messages": 5511105,
+          "unique_chatters": 3699,
+          "ratio": 0.35,
+          "growth": {
+            "viewers_change": 67,
+            "followers_change": 11,
+            "messages_change": 3024,
+            "chatters_change": 30
+          }
         }
       ],
-      "peak_viewers": 1007,
-      "avg_viewers": 1007.0,
-      "total_snapshots": 1,
-      "avg_viewer_to_follower_ratio": 0.33,
-      "avg_total_messages": 5508081.0,
-      "avg_unique_chatters": 3669.0
+      "peak_viewers": 1074,
+      "avg_viewers": 1040.5,
+      "total_snapshots": 2,
+      "avg_viewer_to_follower_ratio": 0.34,
+      "avg_total_messages": 5509593.0,
+      "avg_unique_chatters": 3684.0,
+      "total_growth": {
+        "viewers_change": 67,
+        "followers_change": 11,
+        "messages_change": 3024,
+        "chatters_change": 30
+      }
     },
     "cr_vanilla": {
       "user_id": "315947783281",
@@ -51144,7 +52401,7 @@
       "display_name": "CR_VanilLa",
       "url": "https://www.twitch.tv/cr_vanilla",
       "first_seen_msk": "2026-05-27 13:54:51 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-27 13:54:51 МСК",
@@ -51157,12 +52414,86 @@
           "unique_chatters": 0,
           "ratio": 0.98,
           "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 3719,
+          "follower_count": 378764,
+          "stream_title": "雑談",
+          "started_at_msk": "2026-05-27 13:22:21 МСК",
+          "duration_hours": 1.0,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.98,
+          "growth": {
+            "viewers_change": 14,
+            "followers_change": 8,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 3609,
+          "follower_count": 378773,
+          "stream_title": "雑談",
+          "started_at_msk": "2026-05-27 13:22:21 МСК",
+          "duration_hours": 1.6,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.95,
+          "growth": {
+            "viewers_change": -110,
+            "followers_change": 9,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 3460,
+          "follower_count": 378786,
+          "stream_title": "雑談",
+          "started_at_msk": "2026-05-27 13:22:21 МСК",
+          "duration_hours": 2.1,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.91,
+          "growth": {
+            "viewers_change": -149,
+            "followers_change": 13,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 3371,
+          "follower_count": 378792,
+          "stream_title": "雑談",
+          "started_at_msk": "2026-05-27 13:22:21 МСК",
+          "duration_hours": 2.6,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.89,
+          "growth": {
+            "viewers_change": -89,
+            "followers_change": 6,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
-      "peak_viewers": 3705,
-      "avg_viewers": 3705.0,
-      "total_snapshots": 1,
-      "avg_viewer_to_follower_ratio": 0.98
+      "peak_viewers": 3719,
+      "avg_viewers": 3572.8,
+      "total_snapshots": 5,
+      "avg_viewer_to_follower_ratio": 0.94,
+      "total_growth": {
+        "viewers_change": -334,
+        "followers_change": 36,
+        "messages_change": 0,
+        "chatters_change": 0
+      }
     },
     "zloyn": {
       "user_id": "316165972820",
@@ -51170,7 +52501,7 @@
       "display_name": "ZLOYn",
       "url": "https://www.twitch.tv/zloyn",
       "first_seen_msk": "2026-05-27 13:54:51 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-27 13:54:51 МСК",
@@ -51183,14 +52514,88 @@
           "unique_chatters": 31411,
           "ratio": 0.15,
           "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 2361,
+          "follower_count": 1339959,
+          "stream_title": "IRL | Просто Гуляем /w @s1mple и др.! | !tg",
+          "started_at_msk": "2026-05-27 13:30:24 МСК",
+          "duration_hours": 0.9,
+          "total_messages": 11454042,
+          "unique_chatters": 31511,
+          "ratio": 0.18,
+          "growth": {
+            "viewers_change": 304,
+            "followers_change": 102,
+            "messages_change": 704,
+            "chatters_change": 100
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 2540,
+          "follower_count": 1340057,
+          "stream_title": "IRL | Просто Гуляем /w @s1mple и др.! | !tg",
+          "started_at_msk": "2026-05-27 13:30:24 МСК",
+          "duration_hours": 1.4,
+          "total_messages": 11454647,
+          "unique_chatters": 31617,
+          "ratio": 0.19,
+          "growth": {
+            "viewers_change": 179,
+            "followers_change": 98,
+            "messages_change": 605,
+            "chatters_change": 106
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 3502,
+          "follower_count": 1340151,
+          "stream_title": "IRL | Просто Гуляем /w @s1mple и др.! | !tg",
+          "started_at_msk": "2026-05-27 13:30:24 МСК",
+          "duration_hours": 1.9,
+          "total_messages": 11455180,
+          "unique_chatters": 31692,
+          "ratio": 0.26,
+          "growth": {
+            "viewers_change": 962,
+            "followers_change": 94,
+            "messages_change": 533,
+            "chatters_change": 75
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 2974,
+          "follower_count": 1340249,
+          "stream_title": "IRL | Просто Гуляем /w @s1mple и др.! | !tg",
+          "started_at_msk": "2026-05-27 13:30:24 МСК",
+          "duration_hours": 2.4,
+          "total_messages": 11455881,
+          "unique_chatters": 31800,
+          "ratio": 0.22,
+          "growth": {
+            "viewers_change": -528,
+            "followers_change": 98,
+            "messages_change": 701,
+            "chatters_change": 108
+          }
         }
       ],
-      "peak_viewers": 2057,
-      "avg_viewers": 2057.0,
-      "total_snapshots": 1,
-      "avg_viewer_to_follower_ratio": 0.15,
-      "avg_total_messages": 11453338.0,
-      "avg_unique_chatters": 31411.0
+      "peak_viewers": 3502,
+      "avg_viewers": 2686.8,
+      "total_snapshots": 5,
+      "avg_viewer_to_follower_ratio": 0.2,
+      "avg_total_messages": 11454618.0,
+      "avg_unique_chatters": 31606.0,
+      "total_growth": {
+        "viewers_change": 917,
+        "followers_change": 392,
+        "messages_change": 2543,
+        "chatters_change": 389
+      }
     },
     "blusewilly_retry": {
       "user_id": "315664646249",
@@ -51198,7 +52603,7 @@
       "display_name": "餐餐自由配",
       "url": "https://www.twitch.tv/blusewilly_retry",
       "first_seen_msk": "2026-05-27 13:54:51 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 14:25:14 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-27 13:54:51 МСК",
@@ -51211,12 +52616,35 @@
           "unique_chatters": 0,
           "ratio": 0.29,
           "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 2064,
+          "follower_count": 457649,
+          "stream_title": "今天要幹嘛 5/27",
+          "started_at_msk": "2026-05-27 13:29:50 МСК",
+          "duration_hours": 0.9,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.45,
+          "growth": {
+            "viewers_change": 746,
+            "followers_change": -1,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
-      "peak_viewers": 1318,
-      "avg_viewers": 1318.0,
-      "total_snapshots": 1,
-      "avg_viewer_to_follower_ratio": 0.29
+      "peak_viewers": 2064,
+      "avg_viewers": 1691.0,
+      "total_snapshots": 2,
+      "avg_viewer_to_follower_ratio": 0.37,
+      "total_growth": {
+        "viewers_change": 746,
+        "followers_change": -1,
+        "messages_change": 0,
+        "chatters_change": 0
+      }
     },
     "doctorul_": {
       "user_id": "317417992421",
@@ -51224,7 +52652,7 @@
       "display_name": "Doctorul_",
       "url": "https://www.twitch.tv/doctorul_",
       "first_seen_msk": "2026-05-27 13:54:51 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 14:55:37 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-27 13:54:51 МСК",
@@ -51237,14 +52665,54 @@
           "unique_chatters": 6686,
           "ratio": 3.15,
           "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1173,
+          "follower_count": 32365,
+          "stream_title": "Vorbim, apoi vedem ce facem #ad !anunt !pc",
+          "started_at_msk": "2026-05-27 13:02:06 МСК",
+          "duration_hours": 1.4,
+          "total_messages": 8546017,
+          "unique_chatters": 6695,
+          "ratio": 3.62,
+          "growth": {
+            "viewers_change": 155,
+            "followers_change": 3,
+            "messages_change": 650,
+            "chatters_change": 9
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1253,
+          "follower_count": 32369,
+          "stream_title": "Vorbim, apoi vedem ce facem #ad !anunt !pc",
+          "started_at_msk": "2026-05-27 13:02:06 МСК",
+          "duration_hours": 1.9,
+          "total_messages": 8546490,
+          "unique_chatters": 6702,
+          "ratio": 3.87,
+          "growth": {
+            "viewers_change": 80,
+            "followers_change": 4,
+            "messages_change": 473,
+            "chatters_change": 7
+          }
         }
       ],
-      "peak_viewers": 1018,
-      "avg_viewers": 1018.0,
-      "total_snapshots": 1,
-      "avg_viewer_to_follower_ratio": 3.15,
-      "avg_total_messages": 8545367.0,
-      "avg_unique_chatters": 6686.0
+      "peak_viewers": 1253,
+      "avg_viewers": 1148.0,
+      "total_snapshots": 3,
+      "avg_viewer_to_follower_ratio": 3.55,
+      "avg_total_messages": 8545958.0,
+      "avg_unique_chatters": 6694.0,
+      "total_growth": {
+        "viewers_change": 235,
+        "followers_change": 7,
+        "messages_change": 1123,
+        "chatters_change": 16
+      }
     },
     "auddk_77": {
       "user_id": "315216682864",
@@ -51252,7 +52720,7 @@
       "display_name": "명아츄",
       "url": "https://www.twitch.tv/auddk_77",
       "first_seen_msk": "2026-05-27 13:54:51 МСК",
-      "last_seen_msk": "2026-05-27 13:54:51 МСК",
+      "last_seen_msk": "2026-05-27 14:25:14 МСК",
       "snapshots": [
         {
           "scraped_at_msk": "2026-05-27 13:54:51 МСК",
@@ -51265,13 +52733,587 @@
           "unique_chatters": 0,
           "ratio": 0.61,
           "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1063,
+          "follower_count": 154294,
+          "stream_title": "[live] black ootd",
+          "started_at_msk": "2026-05-27 12:39:48 МСК",
+          "duration_hours": 1.8,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.69,
+          "growth": {
+            "viewers_change": 120,
+            "followers_change": 16,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
         }
       ],
-      "peak_viewers": 943,
-      "avg_viewers": 943.0,
+      "peak_viewers": 1063,
+      "avg_viewers": 1003.0,
+      "total_snapshots": 2,
+      "avg_viewer_to_follower_ratio": 0.65,
+      "total_growth": {
+        "viewers_change": 120,
+        "followers_change": 16,
+        "messages_change": 0,
+        "chatters_change": 0
+      }
+    },
+    "ringo2218": {
+      "user_id": "316010804467",
+      "login": "ringo2218",
+      "display_name": "林檎咬一口",
+      "url": "https://www.twitch.tv/ringo2218",
+      "first_seen_msk": "2026-05-27 14:25:14 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
+      "snapshots": [
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 2258,
+          "follower_count": 34957,
+          "stream_title": "【R I N G O】527跳舞 @ringo2218",
+          "started_at_msk": "2026-05-27 14:00:06 МСК",
+          "duration_hours": 0.4,
+          "total_messages": 1126893,
+          "unique_chatters": 2541,
+          "ratio": 6.46,
+          "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 2336,
+          "follower_count": 35076,
+          "stream_title": "【R I N G O】527跳舞 @ringo2218",
+          "started_at_msk": "2026-05-27 14:00:06 МСК",
+          "duration_hours": 0.9,
+          "total_messages": 1128020,
+          "unique_chatters": 2588,
+          "ratio": 6.66,
+          "growth": {
+            "viewers_change": 78,
+            "followers_change": 119,
+            "messages_change": 1127,
+            "chatters_change": 47
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 1734,
+          "follower_count": 35158,
+          "stream_title": "【R I N G O】527跳舞 @ringo2218",
+          "started_at_msk": "2026-05-27 14:00:06 МСК",
+          "duration_hours": 1.4,
+          "total_messages": 1128788,
+          "unique_chatters": 2615,
+          "ratio": 4.93,
+          "growth": {
+            "viewers_change": -602,
+            "followers_change": 82,
+            "messages_change": 768,
+            "chatters_change": 27
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 1687,
+          "follower_count": 35201,
+          "stream_title": "【R I N G O】527跳舞 @ringo2218",
+          "started_at_msk": "2026-05-27 14:00:06 МСК",
+          "duration_hours": 1.9,
+          "total_messages": 1129375,
+          "unique_chatters": 2638,
+          "ratio": 4.79,
+          "growth": {
+            "viewers_change": -47,
+            "followers_change": 43,
+            "messages_change": 587,
+            "chatters_change": 23
+          }
+        }
+      ],
+      "peak_viewers": 2336,
+      "avg_viewers": 2003.8,
+      "total_snapshots": 4,
+      "avg_viewer_to_follower_ratio": 5.71,
+      "avg_total_messages": 1128269.0,
+      "avg_unique_chatters": 2596.0,
+      "total_growth": {
+        "viewers_change": -571,
+        "followers_change": 244,
+        "messages_change": 2482,
+        "chatters_change": 97
+      }
+    },
+    "michimochievee": {
+      "user_id": "315684511082",
+      "login": "michimochievee",
+      "display_name": "MichiMochievee",
+      "url": "https://www.twitch.tv/michimochievee",
+      "first_seen_msk": "2026-05-27 14:25:14 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
+      "snapshots": [
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 2118,
+          "follower_count": 244185,
+          "stream_title": "can we get an O7 for gregballs | !merch !stoneforged !gg !tts !songcover !socials",
+          "started_at_msk": "2026-05-27 13:39:19 МСК",
+          "duration_hours": 0.8,
+          "total_messages": 13738304,
+          "unique_chatters": 12656,
+          "ratio": 0.87,
+          "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 2608,
+          "follower_count": 244195,
+          "stream_title": "can we get an O7 for gregballs | !merch !stoneforged !gg !tts !songcover !socials",
+          "started_at_msk": "2026-05-27 13:39:19 МСК",
+          "duration_hours": 1.3,
+          "total_messages": 13740548,
+          "unique_chatters": 12696,
+          "ratio": 1.07,
+          "growth": {
+            "viewers_change": 490,
+            "followers_change": 10,
+            "messages_change": 2244,
+            "chatters_change": 40
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 2913,
+          "follower_count": 244203,
+          "stream_title": "can we get an O7 for gregballs | !merch !stoneforged !gg !tts !songcover !socials",
+          "started_at_msk": "2026-05-27 13:39:19 МСК",
+          "duration_hours": 1.8,
+          "total_messages": 13742300,
+          "unique_chatters": 12736,
+          "ratio": 1.19,
+          "growth": {
+            "viewers_change": 305,
+            "followers_change": 8,
+            "messages_change": 1752,
+            "chatters_change": 40
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 3248,
+          "follower_count": 244216,
+          "stream_title": "can we get an O7 for gregballs | !merch !stoneforged !gg !tts !songcover !socials",
+          "started_at_msk": "2026-05-27 13:39:19 МСК",
+          "duration_hours": 2.3,
+          "total_messages": 13744596,
+          "unique_chatters": 12784,
+          "ratio": 1.33,
+          "growth": {
+            "viewers_change": 335,
+            "followers_change": 13,
+            "messages_change": 2296,
+            "chatters_change": 48
+          }
+        }
+      ],
+      "peak_viewers": 3248,
+      "avg_viewers": 2721.8,
+      "total_snapshots": 4,
+      "avg_viewer_to_follower_ratio": 1.11,
+      "avg_total_messages": 13741437.0,
+      "avg_unique_chatters": 12718.0,
+      "total_growth": {
+        "viewers_change": 1130,
+        "followers_change": 31,
+        "messages_change": 6292,
+        "chatters_change": 128
+      }
+    },
+    "yoon_froggy": {
+      "user_id": "315185429870",
+      "login": "yoon_froggy",
+      "display_name": "윤개굴이",
+      "url": "https://www.twitch.tv/yoon_froggy",
+      "first_seen_msk": "2026-05-27 14:25:14 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
+      "snapshots": [
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1279,
+          "follower_count": 487624,
+          "stream_title": "[en/kr] LIVE 🔴 MaMa BACK 🔥BAKE STREAM / !dance",
+          "started_at_msk": "2026-05-27 14:01:56 МСК",
+          "duration_hours": 0.4,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.26,
+          "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 2140,
+          "follower_count": 487634,
+          "stream_title": "[en/kr] LIVE 🔴 MaMa BACK 🔥BAKE STREAM / !dance",
+          "started_at_msk": "2026-05-27 14:01:56 МСК",
+          "duration_hours": 0.9,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.44,
+          "growth": {
+            "viewers_change": 861,
+            "followers_change": 10,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 2299,
+          "follower_count": 487665,
+          "stream_title": "[en/kr] LIVE 🔴 MaMa BACK 🔥BAKE STREAM / !dance",
+          "started_at_msk": "2026-05-27 14:01:56 МСК",
+          "duration_hours": 1.4,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.47,
+          "growth": {
+            "viewers_change": 159,
+            "followers_change": 31,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 2169,
+          "follower_count": 487659,
+          "stream_title": "[en/kr] LIVE 🔴 MaMa BACK 🔥BAKE STREAM / !dance",
+          "started_at_msk": "2026-05-27 14:01:56 МСК",
+          "duration_hours": 1.9,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 0.44,
+          "growth": {
+            "viewers_change": -130,
+            "followers_change": -6,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        }
+      ],
+      "peak_viewers": 2299,
+      "avg_viewers": 1971.8,
+      "total_snapshots": 4,
+      "avg_viewer_to_follower_ratio": 0.4,
+      "total_growth": {
+        "viewers_change": 890,
+        "followers_change": 35,
+        "messages_change": 0,
+        "chatters_change": 0
+      }
+    },
+    "moto_daikigyo": {
+      "user_id": "315955999346",
+      "login": "moto_daikigyo",
+      "display_name": "もとき627",
+      "url": "https://www.twitch.tv/moto_daikigyo",
+      "first_seen_msk": "2026-05-27 14:25:14 МСК",
+      "last_seen_msk": "2026-05-27 14:55:37 МСК",
+      "snapshots": [
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1216,
+          "follower_count": 437,
+          "stream_title": "マリオパーティ実況配信🔰コメントお待ちしてます😊6/27札幌オフ会🍻",
+          "started_at_msk": "2026-05-27 13:31:10 МСК",
+          "duration_hours": 0.9,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 278.26,
+          "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1324,
+          "follower_count": 448,
+          "stream_title": "マリオパーティ実況配信🔰コメントお待ちしてます😊6/27札幌オフ会🍻",
+          "started_at_msk": "2026-05-27 13:31:10 МСК",
+          "duration_hours": 1.4,
+          "total_messages": 0,
+          "unique_chatters": 0,
+          "ratio": 295.54,
+          "growth": {
+            "viewers_change": 108,
+            "followers_change": 11,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        }
+      ],
+      "peak_viewers": 1324,
+      "avg_viewers": 1270.0,
+      "total_snapshots": 2,
+      "avg_viewer_to_follower_ratio": 286.9,
+      "total_growth": {
+        "viewers_change": 108,
+        "followers_change": 11,
+        "messages_change": 0,
+        "chatters_change": 0
+      }
+    },
+    "nannitwitch": {
+      "user_id": "317487858790",
+      "login": "nannitwitch",
+      "display_name": "NanniTwitch",
+      "url": "https://www.twitch.tv/nannitwitch",
+      "first_seen_msk": "2026-05-27 14:25:14 МСК",
+      "last_seen_msk": "2026-05-27 14:25:14 МСК",
+      "snapshots": [
+        {
+          "scraped_at_msk": "2026-05-27 14:25:14 МСК",
+          "viewer_count": 1039,
+          "follower_count": 120832,
+          "stream_title": "mattina  | !TradeRepublic !archivio !ebay !sc #adv",
+          "started_at_msk": "2026-05-27 10:49:19 МСК",
+          "duration_hours": 3.6,
+          "total_messages": 20324217,
+          "unique_chatters": 12278,
+          "ratio": 0.86,
+          "growth": null
+        }
+      ],
+      "peak_viewers": 1039,
+      "avg_viewers": 1039.0,
       "total_snapshots": 1,
-      "avg_viewer_to_follower_ratio": 0.61
+      "avg_viewer_to_follower_ratio": 0.86,
+      "avg_total_messages": 20324217.0,
+      "avg_unique_chatters": 12278.0
+    },
+    "gaechkatm": {
+      "user_id": "316102628949",
+      "login": "gaechkatm",
+      "display_name": "GAECHKATM",
+      "url": "https://www.twitch.tv/gaechkatm",
+      "first_seen_msk": "2026-05-27 14:55:37 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
+      "snapshots": [
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1358,
+          "follower_count": 705018,
+          "stream_title": "ДЕНЬ 27 - Я УХОЖУ  👉 !буткемп !winline !тг !гаечкабет !торнадо !boosty",
+          "started_at_msk": "2026-05-27 14:27:57 МСК",
+          "duration_hours": 0.5,
+          "total_messages": 12356354,
+          "unique_chatters": 15365,
+          "ratio": 0.19,
+          "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 2080,
+          "follower_count": 705040,
+          "stream_title": "ДЕНЬ 27 - Я УХОЖУ  👉 !буткемп !winline !тг !гаечкабет !торнадо !boosty",
+          "started_at_msk": "2026-05-27 14:27:57 МСК",
+          "duration_hours": 1.0,
+          "total_messages": 12356354,
+          "unique_chatters": 15365,
+          "ratio": 0.3,
+          "growth": {
+            "viewers_change": 722,
+            "followers_change": 22,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 2256,
+          "follower_count": 705054,
+          "stream_title": "ДЕНЬ 27 - Я УХОЖУ  👉 !буткемп !winline !тг !гаечкабет !торнадо !boosty",
+          "started_at_msk": "2026-05-27 14:27:57 МСК",
+          "duration_hours": 1.5,
+          "total_messages": 12356354,
+          "unique_chatters": 15365,
+          "ratio": 0.32,
+          "growth": {
+            "viewers_change": 176,
+            "followers_change": 14,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        }
+      ],
+      "peak_viewers": 2256,
+      "avg_viewers": 1898.0,
+      "total_snapshots": 3,
+      "avg_viewer_to_follower_ratio": 0.27,
+      "avg_total_messages": 12356354.0,
+      "avg_unique_chatters": 15365.0,
+      "total_growth": {
+        "viewers_change": 898,
+        "followers_change": 36,
+        "messages_change": 0,
+        "chatters_change": 0
+      }
+    },
+    "moondogs_celestial": {
+      "user_id": "315620912232",
+      "login": "moondogs_celestial",
+      "display_name": "幻月_",
+      "url": "https://www.twitch.tv/moondogs_celestial",
+      "first_seen_msk": "2026-05-27 14:55:37 МСК",
+      "last_seen_msk": "2026-05-27 15:26:04 МСК",
+      "snapshots": [
+        {
+          "scraped_at_msk": "2026-05-27 14:55:37 МСК",
+          "viewer_count": 1001,
+          "follower_count": 49478,
+          "stream_title": "【05/27】今天繼續看學妹~!芋友盃 !斗內 @moondogs_celestial",
+          "started_at_msk": "2026-05-27 13:28:39 МСК",
+          "duration_hours": 1.5,
+          "total_messages": 365759,
+          "unique_chatters": 2863,
+          "ratio": 2.02,
+          "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 1030,
+          "follower_count": 49478,
+          "stream_title": "【05/27】今天繼續看學妹~!芋友盃 !斗內 @moondogs_celestial",
+          "started_at_msk": "2026-05-27 13:28:39 МСК",
+          "duration_hours": 2.0,
+          "total_messages": 366717,
+          "unique_chatters": 2889,
+          "ratio": 2.08,
+          "growth": {
+            "viewers_change": 29,
+            "followers_change": 0,
+            "messages_change": 958,
+            "chatters_change": 26
+          }
+        }
+      ],
+      "peak_viewers": 1030,
+      "avg_viewers": 1015.5,
+      "total_snapshots": 2,
+      "avg_viewer_to_follower_ratio": 2.05,
+      "avg_total_messages": 366238.0,
+      "avg_unique_chatters": 2876.0,
+      "total_growth": {
+        "viewers_change": 29,
+        "followers_change": 0,
+        "messages_change": 958,
+        "chatters_change": 26
+      }
+    },
+    "domingo": {
+      "user_id": "316823100770",
+      "login": "domingo",
+      "display_name": "Domingo",
+      "url": "https://www.twitch.tv/domingo",
+      "first_seen_msk": "2026-05-27 15:26:04 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
+      "snapshots": [
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 5777,
+          "follower_count": 2013890,
+          "stream_title": "DEBRIEF ELEVEN ALL STARS",
+          "started_at_msk": "2026-05-27 14:55:26 МСК",
+          "duration_hours": 0.5,
+          "total_messages": 27550346,
+          "unique_chatters": 60449,
+          "ratio": 0.29,
+          "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 7235,
+          "follower_count": 2013924,
+          "stream_title": "DEBRIEF ELEVEN ALL STARS",
+          "started_at_msk": "2026-05-27 14:55:26 МСК",
+          "duration_hours": 1.0,
+          "total_messages": 27550346,
+          "unique_chatters": 60449,
+          "ratio": 0.36,
+          "growth": {
+            "viewers_change": 1458,
+            "followers_change": 34,
+            "messages_change": 0,
+            "chatters_change": 0
+          }
+        }
+      ],
+      "peak_viewers": 7235,
+      "avg_viewers": 6506.0,
+      "total_snapshots": 2,
+      "avg_viewer_to_follower_ratio": 0.32,
+      "avg_total_messages": 27550346.0,
+      "avg_unique_chatters": 60449.0,
+      "total_growth": {
+        "viewers_change": 1458,
+        "followers_change": 34,
+        "messages_change": 0,
+        "chatters_change": 0
+      }
+    },
+    "peintooon": {
+      "user_id": "315948326257",
+      "login": "peintooon",
+      "display_name": "ぺいんと",
+      "url": "https://www.twitch.tv/peintooon",
+      "first_seen_msk": "2026-05-27 15:26:04 МСК",
+      "last_seen_msk": "2026-05-27 15:56:29 МСК",
+      "snapshots": [
+        {
+          "scraped_at_msk": "2026-05-27 15:26:04 МСК",
+          "viewer_count": 4725,
+          "follower_count": 402568,
+          "stream_title": "こんにちは、お雑談",
+          "started_at_msk": "2026-05-27 15:04:33 МСК",
+          "duration_hours": 0.4,
+          "total_messages": 3093604,
+          "unique_chatters": 4580,
+          "ratio": 1.17,
+          "growth": null
+        },
+        {
+          "scraped_at_msk": "2026-05-27 15:56:29 МСК",
+          "viewer_count": 4206,
+          "follower_count": 402588,
+          "stream_title": "こんにちは、お雑談",
+          "started_at_msk": "2026-05-27 15:04:33 МСК",
+          "duration_hours": 0.9,
+          "total_messages": 3101859,
+          "unique_chatters": 4689,
+          "ratio": 1.04,
+          "growth": {
+            "viewers_change": -519,
+            "followers_change": 20,
+            "messages_change": 8255,
+            "chatters_change": 109
+          }
+        }
+      ],
+      "peak_viewers": 4725,
+      "avg_viewers": 4465.5,
+      "total_snapshots": 2,
+      "avg_viewer_to_follower_ratio": 1.1,
+      "avg_total_messages": 3097732.0,
+      "avg_unique_chatters": 4634.0,
+      "total_growth": {
+        "viewers_change": -519,
+        "followers_change": 20,
+        "messages_change": 8255,
+        "chatters_change": 109
+      }
     }
   },
-  "last_updated_msk": "2026-05-27 13:55:01 МСК"
+  "last_updated_msk": "2026-05-27 15:56:39 МСК"
 }
