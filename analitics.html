@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitch Just Chatting — Эффективность стримеров</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js">
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #0a0a0f;
+            font-family: 'Segoe UI', 'Inter', system-ui, sans-serif;
+            color: #e0d7ff;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 1500px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #bf94ff, #a970ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            color: #898395;
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+            letter-spacing: 0.3px;
+        }
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 16px;
+            margin-bottom: 35px;
+        }
+        .kpi {
+            background: #12121a;
+            border: 1px solid #2a2538;
+            border-radius: 18px;
+            padding: 20px 18px;
+            backdrop-filter: blur(5px);
+            transition: 0.2s;
+        }
+        .kpi:hover {
+            border-color: #9147ff;
+            background: #1a1725;
+        }
+        .kpi-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #9b8fba;
+        }
+        .kpi-value {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1.2;
+        }
+        .analysis-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-bottom: 45px;
+            align-items: stretch;
+        }
+        .analysis-row.reverse {
+            flex-direction: row-reverse;
+        }
+        .chart-box {
+            flex: 1 1 55%;
+            min-width: 500px;
+            background: #111118;
+            border: 1px solid #2a2538;
+            border-radius: 22px;
+            padding: 22px 18px 18px;
+            backdrop-filter: blur(4px);
+            display: flex;
+            flex-direction: column;
+        }
+        .chart-box h3 {
+            font-weight: 600;
+            margin-bottom: 16px;
+            font-size: 1.1rem;
+            color: #cfc3ff;
+            letter-spacing: 0.2px;
+        }
+        .chart-box canvas {
+            width: 100%;
+            height: auto;
+            max-height: 420px;
+            flex: 1;
+        }
+        .insight-box {
+            flex: 1 1 35%;
+            min-width: 300px;
+            background: #12121a;
+            border: 1px solid #2a2538;
+            border-radius: 22px;
+            padding: 28px 24px;
+            backdrop-filter: blur(4px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .insight-box h3 {
+            font-weight: 600;
+            font-size: 1.4rem;
+            color: #bf94ff;
+            margin-bottom: 18px;
+        }
+        .insight-box p {
+            color: #c7bdde;
+            line-height: 1.7;
+            font-size: 1rem;
+            margin-bottom: 14px;
+        }
+        .insight-box .highlight {
+            color: #fff;
+            font-weight: 600;
+            background: #9147ff30;
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+        .full-width {
+            grid-column: 1 / -1;
+        }
+        .table-wrapper {
+            overflow-x: auto;
+            border-radius: 18px;
+            margin-top: 20px;
+            background: #111118;
+            border: 1px solid #2a2538;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+            min-width: 1200px;
+        }
+        th {
+            text-align: left;
+            padding: 14px 10px;
+            background: #06060c;
+            color: #bf94ff;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+        th:hover {
+            color: #d4b8ff;
+        }
+        td {
+            padding: 10px 10px;
+            border-top: 1px solid #231f2e;
+            color: #ddd;
+            white-space: nowrap;
+        }
+        .footer {
+            margin-top: 30px;
+            color: #5a5568;
+            font-size: 0.8rem;
+            text-align: center;
+        }
+        @media (max-width: 900px) {
+            .analysis-row,
+            .analysis-row.reverse {
+                flex-direction: column;
+            }
+            .chart-box,
+            .insight-box {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Twitch · Just Chatting — Эффективность</h1>
+        <div class="subtitle">Анализ эффективности стримеров: метрики делятся на онлайн | 25–26 мая 2026</div>
+        <div class="kpi-grid" id="kpiContainer"></div>
+
+        <!-- 1. Паттерны по времени суток -->
+        <div class="analysis-row">
+            <div class="chart-box"><h3>⏰ Средний онлайн зрителей по часам (все каналы)</h3><canvas id="chartHourlyAvgViewers"></canvas></div>
+            <div class="insight-box"><h3>🕒 Паттерны по времени суток</h3><p>Кривая показывает <span class="highlight">среднее количество зрителей</span> на ВСЕХ стримах Just Chatting по часам (МСК). Учти, что здесь есть стримы с другим часовым поясом. Пики — вечер, спады — ночь.</p></div>
+        </div>
+
+        <!-- 1.1 Паттерны по времени суток -->
+        <div class="analysis-row">
+            <div class="chart-box"><h3>⏰ Средний онлайн зрителей по часам (русскоязычные каналы)</h3><canvas id="chartHourlyAvgViewerRussias"></canvas></div>
+            <div class="insight-box"><h3>🕒 Паттерны по времени суток</h3><p>Кривая показывает <span class="highlight">среднее количество зрителей</span> на РУССКОЯЗЫЧНЫХ стримах Just Chatting по часам (МСК). Пики — вечер, спады — ночь. Помогает выбрать <span class="highlight">лучшее время для старта</span> стрима. По моему мнению это логично делать на подъёме графика, а не на спаде. Подъём где-то с 15:00</p></div>
+        </div>
+
+        <!-- 2. Распределение длительности стримов -->
+        <div class="analysis-row reverse">
+            <div class="chart-box"><h3>⏳ Распределение длительности стримов</h3><canvas id="chartDurationDist"></canvas></div>
+            <div class="insight-box"><h3>📊 Сколько живут эфиры</h3><p>По оси X — <span class="highlight">длительность стрима в часах</span>, по Y — <span class="highlight">количество каналов</span> с такой длительностью. Большинство стримов длятся 2–8 часов. Длинный хвост — марафоны.</p></div>
+        </div>
+
+        <!-- 3. Плотность общения -->
+        <div class="analysis-row">
+            <div class="chart-box"><h3>💬 Сообщений на одного зрителя в час (топ‑15 эффективных)</h3><canvas id="chartMsgPerViewerPerHour"></canvas></div>
+            <div class="insight-box"><h3>⚡ Плотность общения</h3><p>Сколько сообщений в среднем пишет <span class="highlight">один зритель за час</span>. Высокое значение — очень активный чат. Неважно, сколько у стримера зрителей — важно, насколько они <span class="highlight">вовлечены в разговор</span>.</p></div>
+        </div>
+
+        <!-- 4. Доля новоговорящих -->
+        <div class="analysis-row reverse">
+            <div class="chart-box"><h3>👥 Доля новоговорящих: уник. чаттеров / зрителя / час (топ‑15)</h3><canvas id="chartChattersPerViewerPerHour"></canvas></div>
+            <div class="insight-box"><h3>🗣️ Доля новоговорящих</h3><p>Сколько <span class="highlight">новых уникальных чаттеров</span> появляется на одного зрителя за час. Показывает способность стримера <span class="highlight">разговорить молчаливую аудиторию</span>. Чем выше — тем более интерактивный контент.</p></div>
+        </div>
+
+        <!-- 5. Конверсия в подписку -->
+        <div class="analysis-row">
+            <div class="chart-box"><h3>📈 Прирост фолловеров на одного зрителя в час (топ‑15)</h3><canvas id="chartFollowersPerViewerPerHour"></canvas></div>
+            <div class="insight-box"><h3>🧲 Конверсия в подписку</h3><p>Сколько <span class="highlight">новых фолловеров</span> появляется на одного зрителя за час. Самый важный показатель <span class="highlight">эффективности роста</span>. Маленький канал с 500 зрителями может быть эффективнее гиганта с 10 000.</p></div>
+        </div>
+
+        <!-- РУССКОЯЗЫЧНАЯ СТАТИСТИКА -->
+        <h1>🇷🇺 Русскоязычная статистика</h1>
+
+        <!-- Когда запускают стримы -->
+        <div class="analysis-row reverse">
+            <div class="chart-box"><h3>🕒 Когда люди запускают стримы?</h3><canvas id="chartRuStartDist"></canvas></div>
+            <div class="insight-box"><h3>🚀 Время старта</h3><p>Распределение <span class="highlight">часов запуска</span> русскоязычных стримов. Большинство стартует вечером (18–21 МСК), когда аудитория максимальна.</p></div>
+        </div>
+
+        <!-- Время запуска vs онлайн -->
+        <div class="analysis-row">
+            <div class="chart-box"><h3>📊 Грубая зависимость времени запуска стрима от онлайна</h3><canvas id="chartRuOnlineByStart"></canvas></div>
+            <div class="insight-box"><h3>👥 Онлайн vs старт</h3><p>Средний <span class="highlight">онлайн канала</span> в зависимости от часа его запуска. Вечерние старты собирают больше зрителей. Утренние — меньше.</p></div>
+        </div>
+
+        <!-- Время запуска vs эффективность подписок -->
+        <div class="analysis-row ">
+            <div class="chart-box"><h3>🧲 Как влияет время запуска на эффективность подписок (фолловеры/онлайн/ч)</h3><canvas id="chartRuEffByStart"></canvas></div>
+            <div class="insight-box"><h3>⭐ Конверсия и время</h3><p>Средний <span class="highlight">прирост фолловеров на зрителя в час</span> для каждого часа старта. Пик эффективности — вечерние часы.</p></div>
+        </div>
+
+        <!-- Время запуска vs активность чата -->
+        <div class="analysis-row">
+            <div class="chart-box"><h3>💬 Как влияет время запуска на активность в чате (сообщений/онлайн/ч)</h3><canvas id="chartRuMsgByStart"></canvas></div>
+            <div class="insight-box"><h3>🔥 Разговорчивость и время</h3><p>Плотность <span class="highlight">сообщений на зрителя в час</span> по времени старта. Здесть здесь есть небольшая зависимость - вечер лучше, но нужно больше данных.</p></div>
+        </div>
+
+        <!-- Топ эффективных по фолловерам -->
+        <div class="analysis-row reverse">
+            <div class="chart-box"><h3>🏆 Эффективность по фолловерам/онлайн/ч (русскоязычные)</h3><canvas id="chartRuTopEff"></canvas></div>
+            <div class="insight-box"><h3>🥇 Лидеры роста</h3><p>Топ‑15 русскоязычных каналов по <span class="highlight">приросту фолловеров на зрителя в час</span>. Маленькие каналы здесь могут обходить гигантов — эффективность не зависит от размера.</p></div>
+        </div>
+
+        <!-- Топ эффективных по сообщениям -->
+        <div class="analysis-row reverse">
+            <div class="chart-box"><h3>💎 Эффективность по сообщениям/онлайн/ч (русскоязычные)</h3><canvas id="chartRuTopMsg"></canvas></div>
+            <div class="insight-box"><h3>📢 Самые активные чаты</h3><p>Топ‑15 русскоязычных каналов по <span class="highlight">сообщениям на зрителя в час</span>. Эти стримеры создают максимально вовлечённое комьюнити, где каждый зритель активен.</p></div>
+        </div>
+
+        <h1>🌍 Возвращаемся к мировым данным</h1>
+        <!-- 6. Размер vs эффективность (группы) -->
+        <div class="analysis-row">
+            <div class="chart-box"><h3>📊 Эффективность по группам онлайна (фолловеры/зритель/ч)</h3><canvas id="chartGroupedEfficiency"></canvas></div>
+            <div class="insight-box"><h3>📈 Размер vs эффективность</h3><p>Каналы разбиты на группы: <span class="highlight">500–1к, 1к–3к, 3к–10к, 10к–20к, 20к+</span>. Для каждой группы — средняя эффективность прироста фолловеров. Видно, какие по размеру каналы <span class="highlight">растут быстрее всего</span>.</p></div>
+        </div>
+
+        <!-- 7. Где горячее общение (группы) -->
+        <div class="analysis-row">
+            <div class="chart-box"><h3>💬 Активность чата по группам онлайна (сообщений/зритель/ч)</h3><canvas id="chartGroupedChat"></canvas></div>
+            <div class="insight-box"><h3>🔥 Где горячее общение</h3><p>Средняя плотность сообщений на зрителя в час для разных <span class="highlight">групп онлайна</span>. Часто маленькие каналы имеют <span class="highlight">более сплочённое комьюнити</span> и активнее общаются.</p></div>
+        </div>
+
+        <!-- 11. Прирост фолловеров / сообщения по часу старта -->
+        <div class="analysis-row">
+            <div class="chart-box"><h3>📈 Прирост фолловеров / сообщения по часу старта</h3><canvas id="chartFollowRateByStartHour"></canvas></div>
+            <div class="insight-box"><h3>⏱️ Старт и конверсия сообщений в подписки</h3><p>По оси X — час старта стрима, по Y — <span class="highlight">прирост фолловеров на одно сообщение в час</span>. Показывает, в какие часы сообщения зрителей <span class="highlight">лучше конвертируются в подписки</span>.</p></div>
+        </div>
+
+        <!-- 14. Плотность сообщений / онлайн / час по часу старта -->
+        <div class="analysis-row">
+            <div class="chart-box"><h3>💬 Плотность сообщений (сообщ/зрит/ч) по часу старта</h3><canvas id="chartMsgRateByStartHour"></canvas></div>
+            <div class="insight-box"><h3>🕒 Старт и активность чата</h3><p>Средняя скорость сообщений на одного зрителя в час для каждого часа старта. Позволяет увидеть, когда начатый стрим получает <span class="highlight">наиболее активный чат</span>.</p></div>
+        </div>
+
+        <!-- Таблица -->
+        <div class="chart-box full-width" style="margin-top:15px;">
+            <h3>📋 Полная таблица эффективности (клик по заголовку — сортировка. Shift + колесо мыши — горизонтальный скролл)</h3>
+            <div class="table-wrapper" id="tableContainer"></div>
+        </div>
+        <div class="footer">Данные: Just Chatting · Эффективность = метрики / онлайн · 25–26 мая 2026</div>
+    </div>
+
+<script>
+(function() {
+    let DATA = { channels: {} };
+    fetch('channels_to_monitor.json')
+        .then(r => r.json())
+        .then(json => { DATA = json; initDashboard(); })
+        .catch(err => {
+            document.body.innerHTML = '<div style="color:white;padding:40px;">❌ Ошибка загрузки<br>' + err + '<br><br>Запустите: python -m http.server 8000</div>';
+        });
+
+    function initDashboard() {
+        const channels = DATA.channels;
+        const allKeys = Object.keys(channels);
+        if (allKeys.length === 0) return;
+        const safe = (v, fb = 0) => (v !== undefined && v !== null && !isNaN(v)) ? v : fb;
+        const lastSnap = ch => ch.snapshots?.length ? ch.snapshots[ch.snapshots.length - 1] : null;
+        const hasCyrillic = (str) => /[а-яё]/i.test(str || '');
+        const isRussian = (ch) => (ch.snapshots || []).some(s => hasCyrillic(s.stream_title));
+
+        const fKeys = allKeys.filter(k => safe(channels[k].avg_viewers) >= 100);
+        if (fKeys.length === 0) return;
+
+        const totalF = fKeys.length;
+        const snapsTotal = fKeys.reduce((s, k) => s + safe(channels[k].total_snapshots), 0);
+        const avgOnAll = (fKeys.reduce((s, k) => s + safe(channels[k].avg_viewers), 0) / totalF).toFixed(0);
+        document.getElementById('kpiContainer').innerHTML = `
+            <div class="kpi"><div class="kpi-label">Каналов (≥100 зр.)</div><div class="kpi-value">${totalF}</div></div>
+            <div class="kpi"><div class="kpi-label">Всего снимков</div><div class="kpi-value">${snapsTotal}</div></div>
+            <div class="kpi"><div class="kpi-label">Средний онлайн</div><div class="kpi-value">${avgOnAll}</div></div>
+        `;
+
+        const enriched = fKeys.map(k => {
+            const c = channels[k];
+            const ls = lastSnap(c);
+            const avg = Math.max(safe(c.avg_viewers), 1);
+            const peak = safe(c.peak_viewers);
+            const mg = c.total_growth ? safe(c.total_growth.messages_change) : 0;
+            const cg = c.total_growth ? safe(c.total_growth.chatters_change) : 0;
+            const fg = c.total_growth ? safe(c.total_growth.followers_change) : 0;
+            const dur = ls ? Math.max(safe(ls.duration_hours), 0.1) : 1;
+            const sh = c.snapshots?.length ? new Date(c.snapshots[0].started_at_msk.replace(' МСК', '')).getHours() : 0;
+            const snapCount = safe(c.total_snapshots);
+            return {
+                name: c.display_name || k,
+                avgViewers: avg, peakViewers: peak, duration: dur, startHour: sh,
+                snapshots: snapCount, russian: isRussian(c),
+                msgGrowth: mg, chattersGrowth: cg, followersGrowth: fg,
+                msgPerViewerPerHour: mg / (avg * dur),
+                chattersPerViewerPerHour: cg / (avg * dur),
+                followersPerViewerPerHour: fg / (avg * dur),
+                msgPerViewerTotal: mg / avg,
+                followersPerHour: fg / dur,
+                stability: avg > 0 ? peak / avg : 0
+            };
+        });
+
+        const ruEnriched = enriched.filter(e => e.russian);
+        const worldEnriched = enriched;
+
+        function topN(arr, key, n = 15) {
+            return arr.map(e => ({ name: e.name, value: e[key] })).sort((a, b) => b.value - a.value).slice(0, n);
+        }
+        const C = ['#9147ff', '#a970ff', '#bf94ff', '#d4b8ff', '#772ce8', '#5c16c5', '#c2a5ff', '#9b7ee8', '#8367c7', '#b89ef0'];
+
+        function bar(id, labels, data, label) {
+            const ctx = document.getElementById(id)?.getContext('2d');
+            if (!ctx || labels.length === 0) return;
+            new Chart(ctx, {
+                type: 'bar',
+                data: { labels, datasets: [{ label, data, backgroundColor: C.slice(0, labels.length), borderRadius: 6 }] },
+                options: { responsive: true, maintainAspectRatio: true, scales: { y: { beginAtZero: true, grid: { color: '#1f1b2c' }, ticks: { color: '#b9adcc' } }, x: { ticks: { color: '#b9adcc' } } }, plugins: { legend: { labels: { color: '#cfc3ff' } } } }
+            });
+        }
+
+        // 1. Кривая онлайна по часам (все)
+        const hd = {};
+        allKeys.forEach(k => (channels[k].snapshots || []).forEach(s => {
+            const h = new Date(s.scraped_at_msk.replace(' МСК', '')).getHours();
+            if (!hd[h]) hd[h] = { s: 0, c: 0 };
+            hd[h].s += safe(s.viewer_count); hd[h].c++;
+        }));
+        const hrs = Object.keys(hd).sort((a, b) => a - b);
+        const ctx1 = document.getElementById('chartHourlyAvgViewers')?.getContext('2d');
+        if (ctx1) new Chart(ctx1, { type: 'line', data: { labels: hrs.map(h => h + ':00'), datasets: [{ label: 'Средний онлайн', data: hrs.map(h => hd[h].s / hd[h].c), borderColor: '#bf94ff', backgroundColor: '#bf94ff20', tension: 0.4, fill: true, pointRadius: 3 }] }, options: { responsive: true, maintainAspectRatio: true, scales: { y: { beginAtZero: true, grid: { color: '#1f1b2c' }, ticks: { color: '#b9adcc' } }, x: { ticks: { color: '#b9adcc' } } }, plugins: { legend: { labels: { color: '#cfc3ff' } } } } });
+
+        // 1.1 Кривая онлайна по часам (русские)
+        const hdRu = {};
+        allKeys.filter(k => isRussian(channels[k])).forEach(k => (channels[k].snapshots || []).forEach(s => {
+            const h = new Date(s.scraped_at_msk.replace(' МСК', '')).getHours();
+            if (!hdRu[h]) hdRu[h] = { s: 0, c: 0 };
+            hdRu[h].s += safe(s.viewer_count); hdRu[h].c++;
+        }));
+        const hrsRu = Object.keys(hdRu).sort((a, b) => a - b);
+        const ctx1ru = document.getElementById('chartHourlyAvgViewerRussias')?.getContext('2d');
+        if (ctx1ru) new Chart(ctx1ru, { type: 'line', data: { labels: hrsRu.map(h => h + ':00'), datasets: [{ label: 'Средний онлайн (RU)', data: hrsRu.map(h => hdRu[h].s / hdRu[h].c), borderColor: '#ff9191', backgroundColor: '#ff919120', tension: 0.4, fill: true, pointRadius: 3 }] }, options: { responsive: true, maintainAspectRatio: true, scales: { y: { beginAtZero: true, grid: { color: '#1f1b2c' }, ticks: { color: '#b9adcc' } }, x: { ticks: { color: '#b9adcc' } } }, plugins: { legend: { labels: { color: '#cfc3ff' } } } } });
+
+        // 2. Распределение длительности
+        const durs = enriched.map(e => e.duration).filter(d => d > 0);
+        const maxD = Math.ceil(Math.max(...durs));
+        const bins = [];
+        const binW = Math.ceil(maxD / 20) || 1;
+        for (let i = 0; i <= maxD; i += binW) bins.push({ l: i + '-' + (i + binW) + 'ч', min: i, max: i + binW, c: 0 });
+        durs.forEach(d => { const b = bins.find(b => d >= b.min && d < b.max); if (b) b.c++; });
+        bar('chartDurationDist', bins.map(b => b.l), bins.map(b => b.c), 'Каналов');
+
+        bar('chartMsgPerViewerPerHour', topN(enriched, 'msgPerViewerPerHour').map(e => e.name), topN(enriched, 'msgPerViewerPerHour').map(e => e.value.toFixed(2)), 'Сообщ/зрит/ч');
+        bar('chartChattersPerViewerPerHour', topN(enriched, 'chattersPerViewerPerHour').map(e => e.name), topN(enriched, 'chattersPerViewerPerHour').map(e => e.value.toFixed(3)), 'Чаттеров/зрит/ч');
+        bar('chartFollowersPerViewerPerHour', topN(enriched, 'followersPerViewerPerHour').map(e => e.name), topN(enriched, 'followersPerViewerPerHour').map(e => e.value.toFixed(4)), 'Фолл/зрит/ч');
+
+        // ----- РУССКОЯЗЫЧНЫЕ ГРАФИКИ -----
+        // Когда запускают стримы
+        const startHoursRu = {};
+        ruEnriched.forEach(e => {
+            if (!startHoursRu[e.startHour]) startHoursRu[e.startHour] = 0;
+            startHoursRu[e.startHour]++;
+        });
+        const shRuKeys = Object.keys(startHoursRu).sort((a, b) => a - b);
+        bar('chartRuStartDist', shRuKeys.map(h => h + ':00'), shRuKeys.map(h => startHoursRu[h]), 'Стримов');
+
+        // Зависимость онлайна от времени старта
+        const onlineByStartRu = {};
+        ruEnriched.forEach(e => {
+            if (!onlineByStartRu[e.startHour]) onlineByStartRu[e.startHour] = { s: 0, c: 0 };
+            onlineByStartRu[e.startHour].s += e.avgViewers;
+            onlineByStartRu[e.startHour].c++;
+        });
+        const osRuKeys = Object.keys(onlineByStartRu).sort((a, b) => a - b);
+        const ctxRuOn = document.getElementById('chartRuOnlineByStart')?.getContext('2d');
+        if (ctxRuOn) new Chart(ctxRuOn, { type: 'line', data: { labels: osRuKeys.map(h => h + ':00'), datasets: [{ label: 'Ср. онлайн', data: osRuKeys.map(h => onlineByStartRu[h].s / onlineByStartRu[h].c), borderColor: '#ff9191', backgroundColor: '#ff919120', tension: 0.3, fill: true, pointRadius: 4 }] }, options: { responsive: true, maintainAspectRatio: true, scales: { y: { beginAtZero: true, grid: { color: '#1f1b2c' }, ticks: { color: '#b9adcc' } }, x: { ticks: { color: '#b9adcc' } } }, plugins: { legend: { labels: { color: '#cfc3ff' } } } } });
+
+        // Время старта vs эффективность подписок
+        const effByStartRu = {};
+        ruEnriched.forEach(e => {
+            if (!effByStartRu[e.startHour]) effByStartRu[e.startHour] = { s: 0, c: 0 };
+            effByStartRu[e.startHour].s += e.followersPerViewerPerHour;
+            effByStartRu[e.startHour].c++;
+        });
+        const efRuKeys = Object.keys(effByStartRu).sort((a, b) => a - b);
+        const ctxRuEff = document.getElementById('chartRuEffByStart')?.getContext('2d');
+        if (ctxRuEff) new Chart(ctxRuEff, { type: 'line', data: { labels: efRuKeys.map(h => h + ':00'), datasets: [{ label: 'Фолл/зрит/ч', data: efRuKeys.map(h => effByStartRu[h].s / effByStartRu[h].c), borderColor: '#a970ff', backgroundColor: '#a970ff20', tension: 0.3, fill: true, pointRadius: 4 }] }, options: { responsive: true, maintainAspectRatio: true, scales: { y: { beginAtZero: true, grid: { color: '#1f1b2c' }, ticks: { color: '#b9adcc' } }, x: { ticks: { color: '#b9adcc' } } }, plugins: { legend: { labels: { color: '#cfc3ff' } } } } });
+
+        // Время старта vs активность чата
+        const msgByStartRu = {};
+        ruEnriched.forEach(e => {
+            if (!msgByStartRu[e.startHour]) msgByStartRu[e.startHour] = { s: 0, c: 0 };
+            msgByStartRu[e.startHour].s += e.msgPerViewerPerHour;
+            msgByStartRu[e.startHour].c++;
+        });
+        const msRuKeys = Object.keys(msgByStartRu).sort((a, b) => a - b);
+        const ctxRuMsg = document.getElementById('chartRuMsgByStart')?.getContext('2d');
+        if (ctxRuMsg) new Chart(ctxRuMsg, { type: 'line', data: { labels: msRuKeys.map(h => h + ':00'), datasets: [{ label: 'Сообщ/зрит/ч', data: msRuKeys.map(h => msgByStartRu[h].s / msgByStartRu[h].c), borderColor: '#d4b8ff', backgroundColor: '#d4b8ff20', tension: 0.3, fill: true, pointRadius: 4 }] }, options: { responsive: true, maintainAspectRatio: true, scales: { y: { max: 1.5, beginAtZero: true, grid: { color: '#1f1b2c' }, ticks: { color: '#b9adcc' } }, x: { ticks: { color: '#b9adcc' } } }, plugins: { legend: { labels: { color: '#cfc3ff' } } } } });
+
+        // Топ эффективности по фолловерам (RU)
+        bar('chartRuTopEff', topN(ruEnriched, 'followersPerViewerPerHour').map(e => e.name), topN(ruEnriched, 'followersPerViewerPerHour').map(e => e.value.toFixed(4)), 'Фолл/зрит/ч (RU)');
+
+        // Топ эффективности по сообщениям (RU)
+        bar('chartRuTopMsg', topN(ruEnriched, 'msgPerViewerPerHour').map(e => e.name), topN(ruEnriched, 'msgPerViewerPerHour').map(e => e.value.toFixed(2)), 'Сообщ/зрит/ч (RU)');
+
+        // ----- МИРОВЫЕ ГРАФИКИ -----
+        const grps = [{ l: '500–1к', min: 500, max: 1000 }, { l: '1к–3к', min: 1000, max: 3000 }, { l: '3к–10к', min: 3000, max: 10000 }, { l: '10к–20к', min: 10000, max: 20000 }, { l: '20к+', min: 20000, max: Infinity }];
+        const gEff = grps.map(g => { const ing = worldEnriched.filter(e => e.avgViewers >= g.min && e.avgViewers < g.max); return { l: g.l, v: ing.length > 0 ? ing.reduce((s, e) => s + e.followersPerViewerPerHour, 0) / ing.length : 0 }; });
+        bar('chartGroupedEfficiency', gEff.map(g => g.l), gEff.map(g => g.v.toFixed(4)), 'Фолл/зрит/ч');
+        const gChat = grps.map(g => { const ing = worldEnriched.filter(e => e.avgViewers >= g.min && e.avgViewers < g.max); return { l: g.l, v: ing.length > 0 ? ing.reduce((s, e) => s + e.msgPerViewerPerHour, 0) / ing.length : 0 }; });
+        bar('chartGroupedChat', gChat.map(g => g.l), gChat.map(g => g.v.toFixed(2)), 'Сообщ/зрит/ч');
+
+        // 11
+        const followPerMsgByStart = {};
+        worldEnriched.forEach(e => { if (!followPerMsgByStart[e.startHour]) followPerMsgByStart[e.startHour] = { s: 0, c: 0 }; const ratio = e.msgGrowth > 0 ? e.followersGrowth / e.msgGrowth : 0; followPerMsgByStart[e.startHour].s += ratio; followPerMsgByStart[e.startHour].c++; });
+        const fpmKeys = Object.keys(followPerMsgByStart).sort((a, b) => a - b);
+        const ctx11 = document.getElementById('chartFollowRateByStartHour')?.getContext('2d');
+        if (ctx11) new Chart(ctx11, { type: 'line', data: { labels: fpmKeys.map(h => h + ':00'), datasets: [{ label: 'Фолл/сообщ', data: fpmKeys.map(h => followPerMsgByStart[h].s / followPerMsgByStart[h].c), borderColor: '#a970ff', backgroundColor: '#a970ff20', tension: 0.3, fill: true, pointRadius: 4 }] }, options: { responsive: true, maintainAspectRatio: true, scales: { y: { max: 0.04, beginAtZero: true, grid: { color: '#1f1b2c' }, ticks: { color: '#b9adcc' } }, x: { ticks: { color: '#b9adcc' } } }, plugins: { legend: { labels: { color: '#cfc3ff' } } } } });
+
+        // 14
+        const msgByStart = {};
+        worldEnriched.forEach(e => { if (!msgByStart[e.startHour]) msgByStart[e.startHour] = { s: 0, c: 0 }; msgByStart[e.startHour].s += e.msgPerViewerPerHour; msgByStart[e.startHour].c++; });
+        const msKeys = Object.keys(msgByStart).sort((a, b) => a - b);
+        const ctx14 = document.getElementById('chartMsgRateByStartHour')?.getContext('2d');
+        if (ctx14) new Chart(ctx14, { type: 'line', data: { labels: msKeys.map(h => h + ':00'), datasets: [{ label: 'Сообщ/зрит/ч', data: msKeys.map(h => msgByStart[h].s / msgByStart[h].c), borderColor: '#bf94ff', backgroundColor: '#bf94ff20', tension: 0.3, fill: true, pointRadius: 4 }] }, options: { responsive: true, maintainAspectRatio: true, scales: { y: { beginAtZero: true, grid: { color: '#1f1b2c' }, ticks: { color: '#b9adcc' } }, x: { ticks: { color: '#b9adcc' } } }, plugins: { legend: { labels: { color: '#cfc3ff' } } } } });
+
+        // Таблица
+        (function buildTable() {
+        const cols = [
+            { key: 'name', label: 'Канал' },
+            { key: 'avgViewers', label: 'Ср. онлайн' },
+            { key: 'peakViewers', label: 'Пик онлайн' },
+            { key: 'duration', label: 'Длит. (ч)' },
+            { key: 'startHour', label: 'Старт (ч)' },
+            { key: 'snapshots', label: 'Снимков' },
+            { key: 'stability', label: 'Стаб.' },
+            { key: 'msgPerViewerPerHour', label: 'Msg/зрит/ч' },
+            { key: 'chattersPerViewerPerHour', label: 'Чаттеров/зрит/ч' },
+            { key: 'followersPerViewerPerHour', label: 'Фолл/зрит/ч' },
+            { key: 'followersPerHour', label: 'Фолл/ч (абс)' },
+            { key: 'msgPerViewerTotal', label: 'Msg/зрит (всего)' },
+            { key: 'msgGrowth', label: 'Рост сообщ' },
+            { key: 'chattersGrowth', label: 'Рост чаттеров' },
+            { key: 'followersGrowth', label: 'Рост фолловеров' },
+            { key: 'russian', label: 'RU?' }
+        ];
+            let sc = 'followersPerViewerPerHour', sa = false;
+            function render() {
+                const sorted = [...worldEnriched].sort((a, b) => {
+                    let va = a[sc], vb = b[sc];
+                    if (typeof va === 'string') return sa ? va.localeCompare(vb) : vb.localeCompare(va);
+                    if (typeof va === 'boolean') return sa ? (va ? 1 : -1) : (vb ? 1 : -1);
+                    return sa ? va - vb : vb - va;
+                });
+                let h = '<table><thead><tr>';
+                cols.forEach(c => {
+                    h += `<th data-col="${c.key}">${c.label}${sc === c.key ? (sa ? ' ▲' : ' ▼') : ''}</th>`;
+                });
+                h += '</tr></thead><tbody>';
+                sorted.forEach(e => {
+                    h += '<tr>';
+                    h += `<td><strong>${e.name}</strong></td>`;
+                    h += `<td>${e.avgViewers.toFixed(0)}</td>`;
+                    h += `<td>${e.peakViewers}</td>`;
+                    h += `<td>${e.duration.toFixed(1)}</td>`;
+                    h += `<td>${e.startHour}:00</td>`;
+                    h += `<td>${e.snapshots}</td>`;
+                    h += `<td>${e.stability.toFixed(2)}</td>`;
+                    h += `<td>${e.msgPerViewerPerHour.toFixed(2)}</td>`;
+                    h += `<td>${e.chattersPerViewerPerHour.toFixed(3)}</td>`;
+                    h += `<td>${e.followersPerViewerPerHour.toFixed(4)}</td>`;
+                    h += `<td>${e.followersPerHour.toFixed(1)}</td>`;
+                    h += `<td>${e.msgPerViewerTotal.toFixed(1)}</td>`;
+                    h += `<td>${e.msgGrowth}</td>`;
+                    h += `<td>${e.chattersGrowth}</td>`;
+                    h += `<td>${e.followersGrowth}</td>`;
+                    h += `<td>${e.russian ? '✅' : '❌'}</td>`;
+                    h += '</tr>';
+                });
+                h += '</tbody></table>';
+                document.getElementById('tableContainer').innerHTML = h;
+                document.querySelectorAll('#tableContainer th').forEach(th => th.addEventListener('click', () => {
+                    const ck = th.dataset.col;
+                    sc === ck ? sa = !sa : (sc = ck, sa = false);
+                    render();
+                }));
+            }
+            render();
+        })();
+    }
+})();
+</script>
+</body>
+</html>
