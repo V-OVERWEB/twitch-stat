@@ -235,7 +235,7 @@
         <!-- Когда запускают стримы -->
         <div class="analysis-row reverse">
             <div class="chart-box"><h3>🕒 Когда люди запускают стримы?</h3><canvas id="chartRuStartDist"></canvas></div>
-            <div class="insight-box"><h3>🚀 Время старта</h3><p>Распределение <span class="highlight">часов запуска</span> русскоязычных стримов. Видно, что в целом разница совсем не большоя в сторону перевеса ко второй половине дня. Но разница не такая и большая. Утром почти так же ного запускаетя стримов, но все зрители приходят вечером. Если вспомнить график общего онлайна, то станет понятно, что утренние стримы деструктивны</p></div>
+            <div class="insight-box"><h3>🚀 Время старта</h3><p>Распределение <span class="highlight">часов запуска</span> русскоязычных стримов. Видно, что в целом разница совсем не колосальная в сторону перевеса ко второй половине дня. Вечером примерно в 2 раза больше</p></div>
         </div>
 
         <!-- Время запуска vs онлайн -->
@@ -247,19 +247,25 @@
         <!-- Время запуска vs эффективность подписок -->
         <div class="analysis-row ">
             <div class="chart-box"><h3>🧲 Как влияет время запуска на эффективность подписок (фолловеры/онлайн/ч)</h3><canvas id="chartRuEffByStart"></canvas></div>
-            <div class="insight-box"><h3>⭐ Конверсия и время</h3><p>Средний <span class="highlight">прирост фолловеров на зрителя в час</span> для каждого часа старта. Зависимостей особо не видно, нужно больше данных</p></div>
+            <div class="insight-box"><h3>⭐ Конверсия и время</h3><p>Средний <span class="highlight">прирост фолловеров на зрителя в час</span> для каждого часа старта. Вечером фолловятся активнее более чем в 2 раза</p></div>
         </div>
 
         <!-- Время запуска vs активность чата -->
         <div class="analysis-row">
             <div class="chart-box"><h3>💬 Как влияет время запуска на активность в чате (сообщений/онлайн/ч)</h3><canvas id="chartRuMsgByStart"></canvas></div>
-            <div class="insight-box"><h3>🔥 Разговорчивость и время</h3><p>Плотность <span class="highlight">сообщений на зрителя в час</span> по времени старта. Здесть здесь есть небольшая зависимость - вторая половина дня лучше, но нужно больше данных.</p></div>
+            <div class="insight-box"><h3>🔥 Разговорчивость и время</h3><p>Плотность <span class="highlight">сообщений на зрителя в час</span> по времени старта. Странные данные, но длительность выборки статистики уже достаточное, чтобы видеть истину. Самый разговорчивый чат утром и во второй половине дня. Удивляет разница данных в графике</p></div>
+        </div>
+
+        <!-- Время запуска vs длительность стрима -->
+        <div class="analysis-row reverse">
+            <div class="chart-box"><h3>⏱️ Средняя длительность стрима от времени запуска (русскоязычные)</h3><canvas id="chartRuDurationByStart"></canvas></div>
+            <div class="insight-box"><h3>📏 Когда стримят дольше?</h3><p>График показывает <span class="highlight">среднюю длительность стрима</span> в зависимости от часа его запуска. Видно, что  утренние стримы не длиннее вечерних. Этот график плюс график "Время старта" дают прямое доказательство, что вечером стримов больше примерно в 2 раза. При этом вспомним общий онлайн, где средний онлайн вечером в 6 с лишним раз большее утреннего. Простые вычисления говорят о тройном приросте онлайна на одного стримера в вечерние часы.</p></div>
         </div>
 
         <!-- Топ эффективных по фолловерам -->
         <div class="analysis-row reverse">
             <div class="chart-box"><h3>🏆 Эффективность по фолловерам/онлайн/ч (русскоязычные)</h3><canvas id="chartRuTopEff"></canvas></div>
-            <div class="insight-box"><h3>🥇 Лидеры роста</h3><p>Топ‑15 русскоязычных каналов по <span class="highlight">приросту фолловеров на зрителя в час</span>. Маленькие каналы здесь могут обходить гигантов — эффективность не зависит от размера. У братишкина была какая-то накрутка фолловеров.</p></div>
+            <div class="insight-box"><h3>🥇 Лидеры роста</h3><p>Топ‑15 русскоязычных каналов по <span class="highlight">приросту фолловеров на зрителя в час</span>. Маленькие каналы здесь могут обходить гигантов — эффективность не зависит от размера.</p></div>
         </div>
 
         <!-- Топ эффективных по сообщениям -->
@@ -411,14 +417,47 @@
         bar('chartFollowersPerViewerPerHour', topN(enriched, 'followersPerViewerPerHour').map(e => e.name), topN(enriched, 'followersPerViewerPerHour').map(e => e.value.toFixed(4)), 'Фолл/зрит/ч');
 
         // ----- РУССКОЯЗЫЧНЫЕ ГРАФИКИ -----
-        // Когда запускают стримы
+        // Когда запускают стримы (кривая)
         const startHoursRu = {};
         ruEnriched.forEach(e => {
             if (!startHoursRu[e.startHour]) startHoursRu[e.startHour] = 0;
             startHoursRu[e.startHour]++;
         });
         const shRuKeys = Object.keys(startHoursRu).sort((a, b) => a - b);
-        bar('chartRuStartDist', shRuKeys.map(h => h + ':00'), shRuKeys.map(h => startHoursRu[h]), 'Стримов');
+        const ctxRuStart = document.getElementById('chartRuStartDist')?.getContext('2d');
+        if (ctxRuStart) new Chart(ctxRuStart, {
+            type: 'line',
+            data: {
+                labels: shRuKeys.map(h => h + ':00'),
+                datasets: [{
+                    label: 'Количество запусков',
+                    data: shRuKeys.map(h => startHoursRu[h]),
+                    borderColor: '#ff9191',
+                    backgroundColor: '#ff919120',
+                    tension: 0.3,
+                    fill: true,
+                    pointRadius: 4,
+                    pointBackgroundColor: '#ff9191'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: '#1f1b2c' },
+                        ticks: { color: '#b9adcc' }
+                    },
+                    x: {
+                        ticks: { color: '#b9adcc' }
+                    }
+                },
+                plugins: {
+                    legend: { labels: { color: '#cfc3ff' } }
+                }
+            }
+        });
 
         // Зависимость онлайна от времени старта
         const onlineByStartRu = {};
@@ -451,7 +490,49 @@
         });
         const msRuKeys = Object.keys(msgByStartRu).sort((a, b) => a - b);
         const ctxRuMsg = document.getElementById('chartRuMsgByStart')?.getContext('2d');
-        if (ctxRuMsg) new Chart(ctxRuMsg, { type: 'line', data: { labels: msRuKeys.map(h => h + ':00'), datasets: [{ label: 'Сообщ/зрит/ч', data: msRuKeys.map(h => msgByStartRu[h].s / msgByStartRu[h].c), borderColor: '#d4b8ff', backgroundColor: '#d4b8ff20', tension: 0.3, fill: true, pointRadius: 4 }] }, options: { responsive: true, maintainAspectRatio: true, scales: { y: { max: 1.5, beginAtZero: true, grid: { color: '#1f1b2c' }, ticks: { color: '#b9adcc' } }, x: { ticks: { color: '#b9adcc' } } }, plugins: { legend: { labels: { color: '#cfc3ff' } } } } });
+        if (ctxRuMsg) new Chart(ctxRuMsg, { type: 'line', data: { labels: msRuKeys.map(h => h + ':00'), datasets: [{ label: 'Сообщ/зрит/ч', data: msRuKeys.map(h => msgByStartRu[h].s / msgByStartRu[h].c), borderColor: '#d4b8ff', backgroundColor: '#d4b8ff20', tension: 0.3, fill: true, pointRadius: 4 }] }, options: { responsive: true, maintainAspectRatio: true, scales: { y: { beginAtZero: true, grid: { color: '#1f1b2c' }, ticks: { color: '#b9adcc' } }, x: { ticks: { color: '#b9adcc' } } }, plugins: { legend: { labels: { color: '#cfc3ff' } } } } });
+
+        // Средняя длительность стрима от времени запуска (русскоязычные)
+        const durByStartRu = {};
+        ruEnriched.forEach(e => {
+            if (!durByStartRu[e.startHour]) durByStartRu[e.startHour] = { s: 0, c: 0 };
+            durByStartRu[e.startHour].s += e.duration;
+            durByStartRu[e.startHour].c++;
+        });
+        const durRuKeys = Object.keys(durByStartRu).sort((a, b) => a - b);
+        const ctxRuDur = document.getElementById('chartRuDurationByStart')?.getContext('2d');
+        if (ctxRuDur) new Chart(ctxRuDur, {
+            type: 'line',
+            data: {
+                labels: durRuKeys.map(h => h + ':00'),
+                datasets: [{
+                    label: 'Ср. длительность (часы)',
+                    data: durRuKeys.map(h => durByStartRu[h].s / durByStartRu[h].c),
+                    borderColor: '#ffb347',
+                    backgroundColor: '#ffb34720',
+                    tension: 0.3,
+                    fill: true,
+                    pointRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: '#1f1b2c' },
+                        ticks: { color: '#b9adcc' }
+                    },
+                    x: {
+                        ticks: { color: '#b9adcc' }
+                    }
+                },
+                plugins: {
+                    legend: { labels: { color: '#cfc3ff' } }
+                }
+            }
+        });
 
         // Топ эффективности по фолловерам (RU)
         bar('chartRuTopEff', topN(ruEnriched, 'followersPerViewerPerHour').map(e => e.name), topN(ruEnriched, 'followersPerViewerPerHour').map(e => e.value.toFixed(4)), 'Фолл/зрит/ч (RU)');
